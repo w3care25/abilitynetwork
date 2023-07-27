@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: dc29ed7e-d549-4b85-b732-051b148728d0 # Home Page
+handle: aboutpart
+instructions: ''
+name: aboutpart
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_aboutpart}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

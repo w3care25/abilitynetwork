@@ -1,0 +1,40 @@
+field: 60507d85-be8f-4a92-b4f5-1fabc716a3b8 # News Letter
+fieldLayouts:
+  994be13b-5a55-4007-ad82-3019a94bab54:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 180073bd-221e-48a5-b74d-e8edd3527cca # Feature
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  180073bd-221e-48a5-b74d-e8edd3527cca: # Feature
+    contentColumnType: text
+    fieldGroup: null
+    handle: feature
+    instructions: ''
+    name: Feature
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: features
+name: Features
+sortOrder: 2

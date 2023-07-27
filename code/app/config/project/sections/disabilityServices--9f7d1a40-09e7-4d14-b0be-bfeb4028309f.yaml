@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: disabilityServices
+name: 'Disability Services'
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/disability-services
+    uriFormat: '{slug}'
+type: single

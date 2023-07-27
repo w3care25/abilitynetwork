@@ -1,0 +1,137 @@
+field: 543f54f3-e467-4e5c-92f4-7bead9b5471e # Disability Services
+fieldLayouts:
+  5e73ff70-7266-492d-b218-86b088621b5b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: bd00d7e8-a215-403a-88b6-8b0da8c4fed7 # servicetitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8f64f8e2-fdc6-4a87-b270-57b19621c11e # servicedescription
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e5571d5b-3955-4b06-b71b-02e712001446 # featuredimage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 35c40ff8-eb77-4e34-96b0-55daf6e11294 # Button Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  8f64f8e2-fdc6-4a87-b270-57b19621c11e: # servicedescription
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicedescription
+    instructions: ''
+    name: servicedescription
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  35c40ff8-eb77-4e34-96b0-55daf6e11294: # Button Url
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonUrl
+    instructions: ''
+    name: 'Button Url'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  bd00d7e8-a215-403a-88b6-8b0da8c4fed7: # servicetitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicetitle
+    instructions: ''
+    name: servicetitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e5571d5b-3955-4b06-b71b-02e712001446: # featuredimage
+    contentColumnType: string
+    fieldGroup: null
+    handle: featuredimage
+    instructions: ''
+    name: featuredimage
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: disabilityservice
+name: disabilityservices
+sortOrder: 2

@@ -1,0 +1,249 @@
+field: 2c263ea2-c9e3-4c8d-92d0-a28bb8f2a10a # Contact Us
+fieldLayouts:
+  2106683a-4707-4c51-8fac-c052e8814c52:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 52b8a1d8-7d5b-4109-bd6a-adc3ad4c2095 # Monday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4064ca7f-104f-47a3-bc1a-14623d9766ca # Tuesday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 214b6128-9224-493b-9381-5f805dd53265 # Wednesday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7c66acfe-235a-4515-944e-b094598c68dc # Thursday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e84e00ad-1b47-47ec-bf47-fd324b6a9509 # Friday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9a802499-1d49-4e30-b0a0-b53bcc998f67 # Saturday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9f2cccc9-657f-4c66-ae8d-e69142c20473 # Sunday
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d65ca56e-4f99-4089-b49a-3d691387d889 # Contact Map
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7c66acfe-235a-4515-944e-b094598c68dc: # Thursday
+    contentColumnType: text
+    fieldGroup: null
+    handle: thursday
+    instructions: ''
+    name: Thursday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9a802499-1d49-4e30-b0a0-b53bcc998f67: # Saturday
+    contentColumnType: text
+    fieldGroup: null
+    handle: saturday
+    instructions: ''
+    name: Saturday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9f2cccc9-657f-4c66-ae8d-e69142c20473: # Sunday
+    contentColumnType: text
+    fieldGroup: null
+    handle: sunday
+    instructions: ''
+    name: Sunday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  52b8a1d8-7d5b-4109-bd6a-adc3ad4c2095: # Monday
+    contentColumnType: text
+    fieldGroup: null
+    handle: monday
+    instructions: ''
+    name: Monday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  214b6128-9224-493b-9381-5f805dd53265: # Wednesday
+    contentColumnType: text
+    fieldGroup: null
+    handle: wednesday
+    instructions: ''
+    name: Wednesday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4064ca7f-104f-47a3-bc1a-14623d9766ca: # Tuesday
+    contentColumnType: text
+    fieldGroup: null
+    handle: tuesday
+    instructions: ''
+    name: Tuesday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d65ca56e-4f99-4089-b49a-3d691387d889: # Contact Map
+    contentColumnType: string
+    fieldGroup: null
+    handle: contactMap
+    instructions: ''
+    name: 'Contact Map'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e84e00ad-1b47-47ec-bf47-fd324b6a9509: # Friday
+    contentColumnType: text
+    fieldGroup: null
+    handle: friday
+    instructions: ''
+    name: Friday
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: openHours
+name: 'Open Hours'
+sortOrder: 4

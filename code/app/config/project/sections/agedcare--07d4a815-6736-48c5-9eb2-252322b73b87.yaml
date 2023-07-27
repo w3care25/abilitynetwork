@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: agedcare
+name: Agedcare
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: agedcare/_entry
+    uriFormat: 'aged-care-services/{slug}'
+structure:
+  maxLevels: null
+  uid: 3a7dd286-2b39-482b-b9f2-f6a9bd62e217
+type: structure

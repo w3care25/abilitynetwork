@@ -1,0 +1,133 @@
+field: cf6a1d01-0306-47fb-bc42-46a0217151f0 # disabilityservice
+fieldLayouts:
+  f466d09f-e418-4d0d-9840-735244951605:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f15a7337-2e83-4e0f-9dec-8b969d93afd4 # serviceimage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 33f05512-c8ac-48e3-8ed2-513d0e3097db # servicetitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 27e360e1-eaa8-4238-8cf1-c73e241b3eaa # servicesortdesc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 23ff54c0-eb0e-4c86-8f8e-26b82b6eefae # Button Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  23ff54c0-eb0e-4c86-8f8e-26b82b6eefae: # Button Url
+    contentColumnType: text
+    fieldGroup: null
+    handle: buttonUrl
+    instructions: ''
+    name: 'Button Url'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  27e360e1-eaa8-4238-8cf1-c73e241b3eaa: # servicesortdesc
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicesortdesc
+    instructions: ''
+    name: servicesortdesc
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  33f05512-c8ac-48e3-8ed2-513d0e3097db: # servicetitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicetitle
+    instructions: ''
+    name: servicetitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f15a7337-2e83-4e0f-9dec-8b969d93afd4: # serviceimage
+    contentColumnType: string
+    fieldGroup: null
+    handle: serviceimage
+    instructions: ''
+    name: serviceimage
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: disabiltysericesblock
+name: disabiltysericesblock
+sortOrder: 2

@@ -1,0 +1,47 @@
+fieldLayouts:
+  46ce142a-4bf2-46a3-a138-d651c5c16b2a:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: cf6a1d01-0306-47fb-bc42-46a0217151f0 # disabilityservice
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: disabilityServices
+hasTitleField: false
+name: 'Disability Services'
+section: 9f7d1a40-09e7-4d14-b0be-bfeb4028309f # Disability Services
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

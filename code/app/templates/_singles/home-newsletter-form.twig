@@ -1,0 +1,40 @@
+{% macro errorList(errors) %}
+    {% if errors %}
+        <ul class="errors">
+            {% for error in errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endmacro %}
+
+{% from _self import errorList %}
+{% if craft.app.session.hasFlash('notice') %}
+    <p class="message notice">{{ craft.app.session.getFlash('notice') }}</p>
+{% elseif craft.app.session.hasFlash('error') %}
+    <p class="message error">{{ craft.app.session.getFlash('error') }}</p>
+{% endif %}
+
+<form method="post" action="" accept-charset="UTF-8" id="indivisual-form">
+    {{ csrfInput() }}
+    <input type="hidden" name="action" value="contact-form/send">
+    {{ redirectInput('/') }}
+
+    <h3><label for="from-name">First Name (required)</label></h3>
+    <input id="from-firstname" type="text" name="message[FirstName]" placeholder="Please enter your first name" value="{{ message.FirstName ?? '' }}">
+    {{ message is defined and message ? errorList(message.getErrors('FirstName')) }}
+
+    <h3><label for="from-name">Last Name (required)</label></h3>
+    <input id="from-lastname" type="text" name="message[LastName]" placeholder="Please enter your last name" value="{{ message.LastName ?? '' }}">
+    {{ message is defined and message ? errorList(message.getErrors('LastName')) }}
+
+    <h3><label for="from-email">Email Address (required)</label></h3>
+    <input id="from-email" type="email" name="fromEmail" placeholder="Please enter your email address" value="{{ message.fromEmail ?? '' }}">
+    {{ message is defined and message ? errorList(message.getErrors('fromEmail')) }}
+
+    <h3><label for="message">Message</label></h3>
+    <textarea rows="5" cols="40" id="message" name="message[body]" style="display:none;">Home Newsletter form</textarea>
+    {{ message is defined and message ? errorList(message.getErrors('message')) }}
+
+    <input type="submit" value="Submit">
+</form>

@@ -1,0 +1,42 @@
+field: 0da7c9a9-9f45-4912-acae-526b7b4ed224 # About Us Internal Links
+fieldLayouts:
+  36f73350-64cc-40ae-8fb3-b3afb5e42114:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 67c50b7c-1893-412b-aee8-ce4e49a07e69 # Page
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  67c50b7c-1893-412b-aee8-ce4e49a07e69: # Page
+    contentColumnType: string
+    fieldGroup: null
+    handle: aboutUsInternalPage
+    instructions: ''
+    name: Page
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: aboutUsInternalLinks
+name: 'About Us Internal Links'
+sortOrder: 1

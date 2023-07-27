@@ -1,0 +1,42 @@
+field: 8610e4fe-cf03-4dda-9de5-0ee0b8e061e5 # Page Link
+fieldLayouts:
+  1940f809-ef23-4ca8-a252-7437f0fc8068:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ef2c8f72-ad9d-49fa-a731-b8424ff1f41f # Page
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  ef2c8f72-ad9d-49fa-a731-b8424ff1f41f: # Page
+    contentColumnType: string
+    fieldGroup: null
+    handle: innerPage
+    instructions: ''
+    name: Page
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: innerPage
+name: Page
+sortOrder: 1

@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: dc29ed7e-d549-4b85-b732-051b148728d0 # Home Page
+handle: disabilityServices
+instructions: ''
+name: 'Disability Services'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_disabilityservices}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

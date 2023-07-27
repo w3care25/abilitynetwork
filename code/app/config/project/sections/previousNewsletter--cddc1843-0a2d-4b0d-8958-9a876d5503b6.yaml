@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: previousNewsletter
+name: 'Previous Newsletter'
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/general-content
+    uriFormat: 'news/{slug}'
+structure:
+  maxLevels: null
+  uid: 815f8acf-d8bb-4a34-80d3-03ff93acc62d
+type: structure

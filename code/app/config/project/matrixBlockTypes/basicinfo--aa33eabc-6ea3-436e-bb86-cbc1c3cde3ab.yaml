@@ -1,0 +1,64 @@
+field: 2c263ea2-c9e3-4c8d-92d0-a28bb8f2a10a # Contact Us
+fieldLayouts:
+  b75022ed-e916-4b12-af73-70a61b767919:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 87a3c3a4-c60e-4afc-ad19-428c11c10a8f # Contact title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 79bbf15e-8c18-4fb4-843b-638c6cc14d07 # Contact Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  79bbf15e-8c18-4fb4-843b-638c6cc14d07: # Contact Description
+    contentColumnType: text
+    fieldGroup: null
+    handle: contactDescription
+    instructions: ''
+    name: 'Contact Description'
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  87a3c3a4-c60e-4afc-ad19-428c11c10a8f: # Contact title
+    contentColumnType: text
+    fieldGroup: null
+    handle: contactTitle
+    instructions: ''
+    name: 'Contact title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: basicinfo
+name: Basicinfo
+sortOrder: 1

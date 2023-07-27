@@ -1,0 +1,70 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+<div class="container"> 
+  <!--======== Service Single Content ========-->
+  {% set entries = craft.entries().whereWeService(':notempty:').all() %}
+  {% if entries|length %}
+    {% for block in entry.whereWeService %}
+    {% if block.type== 'servicemainblock' %}
+  <section class="we-service-row">
+    <div class="row padding in-four-parents">
+    <div class="col-8">
+    	<h2 class="service-single-title">{{block.serviceTitle}}</h2>
+        <p>{{block.serviceDescription}}</p>
+        
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <div class="col-4">
+    </div>
+    <div class="clearfix"></div>
+    {% for block in entry.whereWeService %}
+        {% if block.type == 'contactInfo' %}
+        {% set servicemap = block.serviceMap.first() %}
+      <div class="col-4 we-service-titles">
+        <h3>Email Us</h3>
+        <a href="mailto:{{block.emailUs}}">{{block.emailUs}}</a>
+        <h3>Head Office</h3>
+        <p>{{block.headOffice}}</p>
+        
+      </div>
+      <div class="col-8">
+        <div class="we-service-img"> 
+          <img class="img-responsive" src="../{{servicemap.url}}"/> 
+          </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    <div class="clearfix"></div>
+    <div class="col-12">
+    	<h2 class="service-single-title">Call Us</h2>
+    </div>
+	</div>
+    <div class="clearfix"></div>
+	<div class="row padding in-four-boxes">
+    <!-- 1 -->
+     {% for block in entry.whereWeService %}
+        {% if block.type == 'callUs' %}
+    <div class="col-3 we-service-four">
+    <div class="in-we-service-four">
+    	<h4>{{block.servicename}}</h4>
+		<p>Ph: {{block.servicedetail}}</p>
+    </div>
+        <a class="click-to-call" href="tel:{{block.servicedetail}}"><img src="../{assetsBasePath}/images/phone-icon.svg"/> Click to Call</a>
+    </div>
+    
+    <!-- End -->
+    {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  
+  <!--======== End ========--> 
+  
+</div>
+
+{% include "_include/footer" %}
+{% endblock %}

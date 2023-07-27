@@ -1,0 +1,42 @@
+field: 4335c0ef-04c1-47d6-bbba-07bddf96ef90 # Aged Care Service Link
+fieldLayouts:
+  0307064c-04fa-4862-af9e-90867122ea00:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 41e9e46e-0283-48e6-acd6-c30501d824ee # Page
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  41e9e46e-0283-48e6-acd6-c30501d824ee: # Page
+    contentColumnType: string
+    fieldGroup: null
+    handle: agedCareServicePage
+    instructions: ''
+    name: Page
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: agedCareServiceLink
+name: 'Aged Care Service Link'
+sortOrder: 1

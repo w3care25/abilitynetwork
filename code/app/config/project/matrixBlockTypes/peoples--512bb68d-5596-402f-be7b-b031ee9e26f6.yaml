@@ -1,0 +1,133 @@
+field: 067e36f1-dcd6-44ca-b66d-44acd20b567c # Our people
+fieldLayouts:
+  51cdf455-7b34-4d6f-87bb-1b0ade2e3139:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6d6c7b43-58a5-4c81-ad4d-9be18ebdcd54 # People Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a5f9caea-55bf-495c-932b-bc047131b8c7 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d7a64953-fe12-436d-b368-768989bf8f67 # People Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d5350c31-08f4-48cf-8574-29f3255fa4cd # People Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6d6c7b43-58a5-4c81-ad4d-9be18ebdcd54: # People Name
+    contentColumnType: text
+    fieldGroup: null
+    handle: peoplename
+    instructions: ''
+    name: 'People Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a5f9caea-55bf-495c-932b-bc047131b8c7: # Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: peopletitle
+    instructions: ''
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d7a64953-fe12-436d-b368-768989bf8f67: # People Description
+    contentColumnType: text
+    fieldGroup: null
+    handle: peopleDescription
+    instructions: ''
+    name: 'People Description'
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  d5350c31-08f4-48cf-8574-29f3255fa4cd: # People Image
+    contentColumnType: string
+    fieldGroup: null
+    handle: peopleImage
+    instructions: ''
+    name: 'People Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: peoples
+name: peoples
+sortOrder: 2

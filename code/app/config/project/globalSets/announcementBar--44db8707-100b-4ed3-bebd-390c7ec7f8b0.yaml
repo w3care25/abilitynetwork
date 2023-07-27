@@ -1,0 +1,19 @@
+fieldLayouts:
+  80bb8209-29e8-46b1-9021-1ad0c5e9017f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b53a5621-1aa8-4032-beac-b69d11871c0f # Banner Message
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Main
+        sortOrder: 1
+handle: announcementBar
+name: 'Announcement Bar'
+sortOrder: 3

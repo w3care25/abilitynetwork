@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 44c17a5d-7a4d-4dd2-866c-793d38b18963 # news
+handle: news
+instructions: ''
+name: News
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_news}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

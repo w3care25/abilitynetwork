@@ -1,0 +1,19 @@
+columnSuffix: hsfoiiaa
+contentColumnType: text
+fieldGroup: 1bc57502-4d22-49c2-a6b3-535e933de3ca # Blog
+handle: summary
+instructions: ''
+name: Summary
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

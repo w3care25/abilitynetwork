@@ -1,0 +1,40 @@
+field: 067e36f1-dcd6-44ca-b66d-44acd20b567c # Our people
+fieldLayouts:
+  b9ba7fa4-83cf-45ae-ac69-ec1ffc5a6591:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 24969361-25d1-42ae-bc0b-c7db78fb5e15 # Magement Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  24969361-25d1-42ae-bc0b-c7db78fb5e15: # Magement Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: magementTitle
+    instructions: ''
+    name: 'Magement Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: managementTitle
+name: 'Management Title'
+sortOrder: 3

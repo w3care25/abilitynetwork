@@ -1,0 +1,69 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+{% set entries = craft.entries().news(':notempty:').all() %}
+  {% if entries|length %}
+    {% for block in entry.news %}
+    {% if block.type== 'generalInfo' %}
+<div class="container">
+<section class="news-form-row">
+    <div class="row padding">
+    <div class="col-8">
+    	<h2 class="service-single-title">{{block.gentitle}}</h2>
+        <p>{{block.gendescription}}</p>
+        <br/>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    <div class="col-4">
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-7">
+        <div class="news-side-form"> 
+          <h3>Subscribe to Monthly Newsletter</h3> 
+		<div class="f-news-side-form">
+		
+          {% include "_singles/news-newsletter-form.twig" %}
+      	</div>
+        {% for block in entry.news %}
+    {% if block.type== 'previousNewsletter' %}
+          <a class="link-btn" href="{{block.newsletterUrl}}">{{block.newsletterTitle}} <img src="../{assetsBasePath}/images/link-arrow.svg"/ alt="right arrow"></a>
+          {% endif %}
+          {% endfor %}
+          <br/>
+          <!-- <a class="insta-logo" href="https://www.instagram.com/abilitynetworkservices/" target="_blank"> <img src="../{assetsBasePath}/images/insta-follow-logo.png"/></a> -->
+          </div>
+      </div>
+      
+      <div class="col-5">
+        <h3>Follow us on:</h3>
+        <!--<div class="fb-bg-box">
+        <img class="img-responsive" src="../{assetsBasePath}/images/facebbok-feed.jpg"/>
+        </div>-->
+		
+		<div class="fb-bg-box">
+		<h4>Facebook</h4>
+		<ul class="social-follow">
+		<li><a href="https://www.facebook.com/abilitynetwork.com.au" target="_blank"><img src="../{assetsBasePath}/images/follow-fb-icon.svg"/> Ability Network Early Intervention and Therapy</a></li>
+		<li><a href="https://www.facebook.com/abilitynetworkagedcare" target="_blank"><img src="../{assetsBasePath}/images/follow-fb-icon.svg"/> Ability Network Aged Care Services</a></li>
+		<li><a href="https://www.facebook.com/abilitynetworkservices" target="_blank"><img src="../{assetsBasePath}/images/follow-fb-icon.svg"/> Ability Network Disability Services</a></li>
+		</ul>
+		<h4>Instagram</h4>
+		<ul class="social-follow">
+		<li><a href="https://www.instagram.com/abilitynetworkservices/" target="_blank"><img src="../{assetsBasePath}/images/follow-ig-icon.svg"/> Ability Network</a></li>
+		</ul>
+      </div>
+		
+		
+        
+      </div>
+      
+    </div>
+  </section>
+    </div>
+
+{% include "_include/footer" %}
+
+{% endblock %}

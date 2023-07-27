@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: abc182a4-064c-4fb7-86cd-77e29184aa06 # Where we service
+handle: whereWeService
+instructions: ''
+name: 'Where we service'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_whereweservice}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

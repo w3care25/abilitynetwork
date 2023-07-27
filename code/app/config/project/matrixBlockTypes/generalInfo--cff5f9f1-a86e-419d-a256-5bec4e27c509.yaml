@@ -1,0 +1,64 @@
+field: 967a24f7-1f88-4f72-b80a-b8bbcbc6db9c # News
+fieldLayouts:
+  f3606cf6-5da9-4b3c-a8a3-fb1af05544b7:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9eb1fea3-b65f-42ad-bace-9e34e5f5f8a1 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e2c4cc02-884b-49fd-8445-78afcefa79ae # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9eb1fea3-b65f-42ad-bace-9e34e5f5f8a1: # Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: gentitle
+    instructions: ''
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e2c4cc02-884b-49fd-8445-78afcefa79ae: # Description
+    contentColumnType: text
+    fieldGroup: null
+    handle: gendescription
+    instructions: ''
+    name: Description
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+handle: generalInfo
+name: 'General Info'
+sortOrder: 1

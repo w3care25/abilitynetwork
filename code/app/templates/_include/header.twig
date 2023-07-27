@@ -1,0 +1,122 @@
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!--<div class="container">
+  <div class="row">
+    <input class="checkbox-cb" id="checkbox-cb" type="checkbox" />
+    <div class="cookie-bar"> <span class="message">This website uses cookies to give you an incredible experience. By using this website you agree to the <a href="#">terms</a></span> <span class="mobile">This website uses cookies, <a href="#">learn more</a></span>
+      <label for="checkbox-cb" class="close-cb">x</label>
+    </div>
+  </div>
+</div>-->
+<div class="container main-header">
+  <header>
+    <div class="row">
+      <div class="col-4"> <a href="/"><img class="desktop-logo img-responsive" src="../../{assetsBasePath}/images/logo1.svg" alt="Ability Network logo" /> </a> </div>
+     
+      <div class="col-8">
+<!--========== Toggle menu ===========-->
+<div class="mobile-navigation-box">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="/ourpeople/">Our People</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/careers/">Careers</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/news/">News</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/disability-services/volunteers/">Volunteers</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link" href="/disability-services/">Disability Services</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link" href="/aged-care-services/">Aged Care Services</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/where-we-service/">Where we Service</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/contact-us/">Contact Us</a> </li>
+        {% if craft.entries.section('blog').limit(1)|length > 0 %} <li class="nav-item"> <a class="nav-link" href="/blog/">Blog</a> </li>{% endif %}
+    </ul>
+  </div>
+</nav>
+  </div>
+<!--=========== Desktop Menu ==========-->
+<div class="desktop-navigation-box">
+        <ul class="nav nav-pills">
+          <li class="nav-item"> <a class="nav-link" href="/our-people/">Our People</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="/careers/">Careers</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="/news/">News</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="/disability-services/volunteers/">Volunteers</a> </li>
+           {% if craft.entries.section('blog').limit(1)|length > 0 %} <li class="nav-item"> <a class="nav-link" href="/blog/">Blog</a> </li>{% endif %}
+        </ul>
+        <ul class="nav-bottom">       
+            <li class="nav-item dropdown-item-down dropdown"> 
+            <a class="nav-link dropdown-toggle" href="/disability-services/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Disability Services</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+<a class="dropdown-item" href="/disability-services/individual-and-in-home-services">In-home and Community Supports</a>
+<a class="dropdown-item" href="/disability-services/groups-and-community-participation">Group and Community Participation</a>
+<a class="dropdown-item" href="/disability-services/supported-independent-living">Supported Independent Living</a>
+<a class="dropdown-item" href="/disability-services/vocational-skills-training-and-employment">Vocational Skills Training and Employment</a>
+<a class="dropdown-item" href="/disability-services/recovery-coaching">Recovery Coaching</a>
+<a class="dropdown-item" href="/disability-services/ndis-early-childhood-early-intervention">NDIS Early Childhood Early Intervention</a>
+<a class="dropdown-item" href="/disability-services/therapy-services">Therapy Services</a>
+<a class="dropdown-item" href="/disability-services/support-coordination">Support Coordination</a>
+<a class="dropdown-item" href="/disability-services/ability-adventures">Ability Adventures</a>
+<a class="dropdown-item" href="/disability-services/ability-farm">Ability Farm</a>
+        </div>
+            </li>
+           <li class="nav-item dropdown-item-down dropdown"> 
+           <a class="nav-link dropdown-toggle" href="/aged-care-services/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aged Care Services   </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+<a class="dropdown-item" href="/aged-care-services/home-support/">Home Support </a>
+<a class="dropdown-item" href="/aged-care-services/home-care-packages/">Home Care Packages </a>
+<a class="dropdown-item" href="/aged-care-services/private-services/">Private Services </a>
+        </div>
+        </li> 
+            <li class="nav-item"> <a class="nav-link" href="/where-we-service/">Where we Service</a> </li>
+        </ul>
+        <ul class="nav-contact">          
+            <li class="nav-item"> <a class="nav-link" href="/contact-us/">Contact Us</a> </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </header>
+</div>
+<div class="main-sticky">
+    <div class="container in-main-sticky">
+        <div class="row">
+            <div class="col-4"> 
+                <a href="https://abilitynetwork.com.au/">
+                    <img class="sticky-logo" src="../../{assetsBasePath}/images/sticky-logo.svg"/>
+                </a> 
+            </div>
+            <div class="col-8">
+                <ul class="nav-bottom">       
+                    <li class="nav-item dropdown-item-down dropdown"> 
+            <a class="nav-link dropdown-toggle" href="/disability-services/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Disability Services</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+<a class="dropdown-item" href="/disability-services/individual-and-in-home-services">In-home and Community Supports</a>
+<a class="dropdown-item" href="/disability-services/groups-and-community-participation">Group and Community Participation</a>
+<a class="dropdown-item" href="/disability-services/supported-independent-living">Supported Independent Living</a>
+<a class="dropdown-item" href="/disability-services/vocational-skills-training-and-employment">Vocational Skills Training and Employment</a>
+<a class="dropdown-item" href="/disability-services/recovery-coaching">Recovery Coaching</a>
+<a class="dropdown-item" href="/disability-services/ndis-early-childhood-early-intervention">NDIS Early Childhood Early Intervention</a>
+<a class="dropdown-item" href="/disability-services/therapy-services">Therapy Services</a>
+<a class="dropdown-item" href="/disability-services/support-coordination">Support Coordination</a>
+<a class="dropdown-item" href="/disability-services/ability-adventures">Ability Adventures</a>
+<a class="dropdown-item" href="/disability-services/ability-farm">Ability Farm</a>
+        </div>
+            </li>
+           <li class="nav-item dropdown-item-down dropdown"> 
+           <a class="nav-link dropdown-toggle" href="/aged-care-services/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aged Care Services   </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+<a class="dropdown-item" href="/aged-care-services/home-support/">Home Support </a>
+<a class="dropdown-item" href="/aged-care-services/home-care-packages/">Home Care Packages </a>
+<a class="dropdown-item" href="/aged-care-services/private-services/">Private Services </a>
+        </div>
+        </li> 
+                    <li class="nav-item"> <a class="nav-link" href="/where-we-service/">Where we Service</a> </li>
+                </ul>
+                <ul class="nav-contact">          
+                    <li class="nav-item"> <a class="nav-link" href="/contact-us/">Contact Us</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

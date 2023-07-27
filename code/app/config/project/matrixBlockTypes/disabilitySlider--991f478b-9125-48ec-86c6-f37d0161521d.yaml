@@ -1,0 +1,53 @@
+field: 56c88330-d821-4f21-8509-5824f23b557b # Individual service
+fieldLayouts:
+  0953bc5f-bdd7-4973-91bb-714e20385a27:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: dfbebc15-ee7c-48c7-8302-ef9eaeb7276e # slider image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  dfbebc15-ee7c-48c7-8302-ef9eaeb7276e: # slider image
+    contentColumnType: string
+    fieldGroup: null
+    handle: sliderImage
+    instructions: ''
+    name: 'slider image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: disabilitySlider
+name: 'Disability Slider'
+sortOrder: 6

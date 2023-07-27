@@ -1,0 +1,64 @@
+field: 56c88330-d821-4f21-8509-5824f23b557b # Individual service
+fieldLayouts:
+  252a8bdd-7059-415d-ae3d-d4c4416ce83a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ea539ccf-883f-468c-b0d5-f2589fcd3f74 # seotitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 51208446-f503-411d-bbb9-924ae3e01972 # seodescription
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  51208446-f503-411d-bbb9-924ae3e01972: # seodescription
+    contentColumnType: text
+    fieldGroup: null
+    handle: seodescription
+    instructions: ''
+    name: seodescription
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  ea539ccf-883f-468c-b0d5-f2589fcd3f74: # seotitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: seotitle
+    instructions: ''
+    name: seotitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: optionalseocopy
+name: Optionalseocopy
+sortOrder: 5

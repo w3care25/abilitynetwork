@@ -1,0 +1,30 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+<div class="container"> 
+  <!--======== Service Single Content ========-->
+  <section class="service-bio-single">
+    <div class="row padding">
+      <div class="col-12 s-left-content">
+      {% for block in entry.generalContent %}
+      {% if block.type == 'pageIntro'%}
+        <h2 class="service-single-title">{{ block.genraltitle}}</h2>
+        <p>{{block.generalDescription}}</p>
+      {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!--======== End ========--> 
+  
+
+  
+  
+</div>
+</div>
+
+{% include "_include/footer" %}
+
+{% endblock %}

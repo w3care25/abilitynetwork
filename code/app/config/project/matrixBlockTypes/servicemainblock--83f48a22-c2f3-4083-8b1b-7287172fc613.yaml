@@ -1,0 +1,68 @@
+field: 280fc86b-0686-4ae2-a095-182ce5dafa92 # Where we service
+fieldLayouts:
+  ad8b0836-b1c1-4be5-a4ed-83b01435a741:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c4cac59d-0f65-440a-bfd2-0ad8495d1f46 # Service Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dbfc9bb6-9452-4386-be08-9640070d5e76 # Service Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  c4cac59d-0f65-440a-bfd2-0ad8495d1f46: # Service Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceTitle
+    instructions: ''
+    name: 'Service Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  dbfc9bb6-9452-4386-be08-9640070d5e76: # Service Description
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceDescription
+    instructions: ''
+    name: 'Service Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: servicemainblock
+name: servicemainblock
+sortOrder: 1

@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: dc29ed7e-d549-4b85-b732-051b148728d0 # Home Page
+handle: agedCareService
+instructions: ''
+name: 'Aged care Service'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_agedcareservice}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,60 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+
+<div class="container"> 
+  <!--======== Service Single Content ========-->
+  <section class="contactus-row">
+  {% set entries = craft.entries().ourPeople(':notempty:').all() %}
+        {% if entries|length %}
+        {% for block in entry.ourPeople %}
+        {% if block.type == 'ourpeopleintro' %}
+    <div class="row padding">
+      <div class="col-8">
+      
+        <h2 class="single-title">{{block.ourpeopleTitle}}</h2>
+        <p>{{block.ourpeopleDescription}}</p>
+        <br/>
+        <br/>
+        
+      </div>
+      {% endif %}
+        {% endfor %}
+      {% endif %}
+      <div class="col-4"> </div>
+      <div class="clearfix"></div>
+      <div class="team-columns-row"> 
+        
+
+
+        {% for block in entry.ourPeople %}
+          {% if block.type == 'managementTitle' %}
+            <div class="col-12 people-category-title">
+            <h2>{{block.magementTitle}}</h2>
+          </div>
+
+          {% endif%}
+          {% if block.type == 'peoples' %}
+          {% set peopleimg = block.peopleImage.first() %}
+           <h2>{{block.magementTitle}}</h2>
+        <div class="col-3 team-box"> <img class="img-responsive" src="../{{peopleimg ? peopleimg.url}}"/>
+          <h3>{{block.peoplename}}</h3>
+          <h4>{{block.peopletitle}}</h4>
+          <p>{{block.peopleDescription}} </p>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      
+      <div class="clearfix"></div>
+    </div>
+  </section>
+
+  
+  <!--======== End ========--> 
+  
+</div>
+{% include "_include/footer" %}
+
+{% endblock %}

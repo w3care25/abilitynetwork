@@ -1,0 +1,19 @@
+columnSuffix: vpxcjdbh
+contentColumnType: text
+fieldGroup: a8b1ea0d-5b09-4dc2-b4bc-151c7c329721 # Common
+handle: bannerMessage
+instructions: ''
+name: 'Banner Message'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

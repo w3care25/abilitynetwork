@@ -1,0 +1,15 @@
+columnSuffix: tllwdkec
+contentColumnType: text
+fieldGroup: 1bc57502-4d22-49c2-a6b3-535e933de3ca # Blog
+handle: text
+instructions: ''
+name: Text
+searchable: false
+settings:
+  columnType: text
+  initJs: null
+  purifierConfig: ''
+  purifyHtml: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

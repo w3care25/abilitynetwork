@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: contactUs
+name: 'Contact Us'
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/contact-us
+    uriFormat: contact-us
+type: single

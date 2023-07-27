@@ -1,0 +1,68 @@
+field: 543f54f3-e467-4e5c-92f4-7bead9b5471e # Disability Services
+fieldLayouts:
+  36fbce29-ce69-4c2d-be2b-75a8ad0d9882:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ca6f676b-d540-4714-a7d3-289e8f54f3bd # disability title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1ed18420-3269-424e-a3b4-408c5b8cdb4f # disability description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1ed18420-3269-424e-a3b4-408c5b8cdb4f: # disability description
+    contentColumnType: text
+    fieldGroup: null
+    handle: disabilityDescription
+    instructions: ''
+    name: 'disability description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ca6f676b-d540-4714-a7d3-289e8f54f3bd: # disability title
+    contentColumnType: text
+    fieldGroup: null
+    handle: disabilityTitle
+    instructions: ''
+    name: 'disability title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: disabilityinfo
+name: disabilityinfo
+sortOrder: 1

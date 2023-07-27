@@ -1,0 +1,385 @@
+dateModified: 1667181849
+email:
+  fromEmail: info@abilitynetwork.com.au
+  fromName: 'Ability Network '
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: ''
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0a7da4ad-fab4-479b-abaf-223898d7f388: aboutpart # aboutpart
+    0ae5ba23-3c57-479d-a905-8da033ba3f45: 'Social Media Icons' # Social Media Icons
+    0c016dce-7f3e-41d2-b5ca-601da12f67ba: Point1 # Point1
+    0d8e3b07-5a01-4038-9864-c8bdbeeb3bba: 'Aged Care' # Aged Care
+    0da7c9a9-9f45-4912-acae-526b7b4ed224: 'About Us Internal Links' # About Us Internal Links
+    0e879904-0cd7-487e-b9b8-3944afed2bd2: Title # Title
+    0f6d1d5f-f975-4e0f-b8d4-229feea0c26f: 'Disability Services' # Disability Services
+    1bc57502-4d22-49c2-a6b3-535e933de3ca: Blog # Blog
+    1dbe2a58-0d1f-4b1d-a840-d95bd546c232: 'Country Description' # Country Description
+    1eb0e487-73f1-4d6d-bed1-84eece07f94d: 'About Us External URL' # About Us External URL
+    1ecca192-79d5-410f-9b0f-ac167a5e9587: Pagebanner # Pagebanner
+    1ed18420-3269-424e-a3b4-408c5b8cdb4f: 'disability description' # disability description
+    1ee05b39-d701-4cef-a4c1-402650f4e846: Agedcare # Agedcare
+    1ef1b5da-4e97-469e-a78b-2cbb06e48277: 'Button Url' # Button Url
+    2b60b278-8d72-4980-87d9-be85f5ec3765: point5 # point5
+    2c263ea2-c9e3-4c8d-92d0-a28bb8f2a10a: 'Contact Us' # Contact Us
+    2c809fe8-cb0d-48ee-86af-1ce5e1235d13: 'Social Media Link' # Social Media Link
+    2ca37b0e-3bdc-4f1a-a2d7-487fe8d32cfa: agedcareserviceinfo # agedcareserviceinfo
+    2e8dd35e-7250-4f86-a31b-1bec3b0bf795: agedfeaturedimage # agedfeaturedimage
+    2e29daa6-973a-4301-9404-8b8bb70629a1: 'Support Coordination' # Support Coordination
+    2eff2f65-4229-42f4-9553-5671662b694e: Rating # Rating
+    3af21b41-30e8-4cd0-aa40-4e42ebeb6952: 'Button Text' # Button Text
+    3c796981-f0af-495f-8ee4-2e399f3344cf: 'General Content' # General Content
+    3ccf1e97-e678-4106-a9e1-bb71dac0ccb9: Footer # Footer
+    3e5ef849-80b2-44ec-b27c-b489086222c1: 'Support2 Description' # Support2 Description
+    4b3485b8-f3f4-4571-9335-61fbf5695de1: 'featured image' # featured image
+    4bfa56fa-3484-4af2-b0cd-75acde789a71: 'page intro' # page intro
+    4cbd7391-0cb1-4da3-a8fa-509c0ce87b78: Title # Title
+    4cc15456-afec-448b-a0c2-4e53b34e0c79: 'Supporting Way' # Supporting Way
+    4d581216-c774-41af-b126-5f0c7cdcee78: 'General Content' # General Content
+    4f066bf3-699b-468a-a633-d8a8aa106c79: basicinfo # basicinfo
+    5de73afb-6839-4731-ab6b-9752ec1b6aa1: point2 # point2
+    5e73302d-65c3-462d-95af-e5d5a965d848: About # About
+    5fb3a2a7-2be3-40cd-98b9-daf1b83d3072: Footer # Footer
+    6c56f19e-afac-4965-8ce2-3a84c2ae5949: Intro # Intro
+    6d6c7b43-58a5-4c81-ad4d-9be18ebdcd54: 'People Name' # People Name
+    6f0f3a68-f47d-4796-8dda-9bdfc431fc7b: 'Ability Logo' # Ability Logo
+    7b1ba8ef-b0b8-442c-8939-a0e01098483f: 'Aged Care Service Link' # Aged Care Service Link
+    7be3bd5b-f684-425e-9811-0eb87b7c0583: 'Author Name' # Author Name
+    7c66acfe-235a-4515-944e-b094598c68dc: Thursday # Thursday
+    07d4a815-6736-48c5-9eb2-252322b73b87: Agedcare # Agedcare
+    7eb7dc54-0805-4147-9521-11aa935332b3: 'Aged Care Services' # Aged Care Services
+    8b1be875-27cc-47a9-87a6-3e1301e32af0: point4 # point4
+    8cace0f3-f05d-410f-bd81-3199510e85a0: services # services
+    8e2bcea8-7c2f-419e-b571-b5b27e9af17d: 'Newsletter Url' # Newsletter Url
+    8eaae734-0e08-468b-8fc5-9d533f3eed96: 'Aged Care' # Aged Care
+    8ec984c0-554b-49b3-b254-fb1bbdde9740: generalcontent # generalcontent
+    8f64f8e2-fdc6-4a87-b270-57b19621c11e: servicedescription # servicedescription
+    9a802499-1d49-4e30-b0a0-b53bcc998f67: Saturday # Saturday
+    9b4e0ddf-91ee-40f3-8477-ba57dd3efce2: Name # Name
+    9c1b4cc0-f299-41c5-a573-6d0d2f4148c5: Page # Page
+    9c7dc2c7-330b-4479-92f3-b46bcf6047d3: seocopypart2 # seocopypart2
+    9c76b7e4-96a9-4959-b919-ad103cc934c0: 'Service Detail' # Service Detail
+    9c85c264-0d55-45a0-85a7-92df5c20c108: images # images
+    9c920cac-bf24-4065-9298-8ad293057189: agedcaredescription # agedcaredescription
+    9d9c5b46-fa74-4076-983f-49038a678bed: 'External Link' # External Link
+    9db239e9-7980-466d-b5ee-22a45ac01867: headermenu # headermenu
+    9dfef8a6-85cc-425c-b286-3240e672088d: 'Home Slider' # Home Slider
+    9eb1fea3-b65f-42ad-bace-9e34e5f5f8a1: Title # Title
+    9f2cccc9-657f-4c66-ae8d-e69142c20473: Sunday # Sunday
+    9f7d1a40-09e7-4d14-b0be-bfeb4028309f: 'Disability Services' # Disability Services
+    14dd7d60-1d9f-43b6-93a7-18156fab4832: image # image
+    17b42023-9b4b-46c8-a1a2-07dc503ee900: general-content # general-content
+    19a60b57-17c7-468d-a4d6-690481d98690: disabilityinfo # disabilityinfo
+    23ff54c0-eb0e-4c86-8f8e-26b82b6eefae: 'Button Url' # Button Url
+    27e360e1-eaa8-4238-8cf1-c73e241b3eaa: servicesortdesc # servicesortdesc
+    33f05512-c8ac-48e3-8ed2-513d0e3097db: servicetitle # servicetitle
+    35c40ff8-eb77-4e34-96b0-55daf6e11294: 'Button Url' # Button Url
+    40f87985-5f48-4112-87e3-a74810869e8d: newsletters # newsletters
+    41cd80d8-afd3-4f84-802d-893271aec786: 'Support Coordination' # Support Coordination
+    41e9e46e-0283-48e6-acd6-c30501d824ee: Page # Page
+    44bd3e93-e347-4b04-b08b-fd5c38788ab5: 'Open Hours' # Open Hours
+    44c17a5d-7a4d-4dd2-866c-793d38b18963: news # news
+    44db8707-100b-4ed3-bebd-390c7ec7f8b0: 'Announcement Bar' # Announcement Bar
+    44e02091-7522-4e05-9da9-52738291ec16: ExternalLink # ExternalLink
+    45bb75d2-e699-4ead-8462-02ce1c37c441: servicecontent # servicecontent
+    50f63ad2-1ce5-4030-a624-ce0e4bca536d: 'news title' # news title
+    51ca21ba-1c85-4dc5-8e23-ba22a21ee1c8: Optionalseocopy # Optionalseocopy
+    52b8a1d8-7d5b-4109-bd6a-adc3ad4c2095: Monday # Monday
+    52b576c7-edfb-4c0b-8f3b-d1d4fd3b1669: point6 # point6
+    56a79af1-b7a8-48b9-acad-9ce4926c1545: point7 # point7
+    56c88330-d821-4f21-8509-5824f23b557b: 'Individual service' # Individual service
+    57a4acdb-e238-4bf4-a3dc-5a39b3ed2d9d: 'Testimonial Description' # Testimonial Description
+    59c14faa-1d03-4d2b-9405-076c26b27937: point6 # point6
+    62b759cf-367c-4fc1-a11c-359e0f659f3f: newsdescription # newsdescription
+    67c50b7c-1893-412b-aee8-ce4e49a07e69: Page # Page
+    067e36f1-dcd6-44ca-b66d-44acd20b567c: 'Our people' # Our people
+    68b2975e-8efd-41e8-8b45-d1c6a07fb07a: 'Disability Service' # Disability Service
+    71ac200d-70b7-4f17-8e01-f6d5838a9d02: 'Contact Info' # Contact Info
+    71f346a2-c7c2-43e9-91a6-7b25ed161ce6: point2 # point2
+    78da2f88-b585-44e2-89ee-9383fb061a14: 'disability title' # disability title
+    79bbf15e-8c18-4fb4-843b-638c6cc14d07: 'Contact Description' # Contact Description
+    83f48a22-c2f3-4083-8b1b-7287172fc613: servicemainblock # servicemainblock
+    85afa800-c49e-4467-8681-11bec53e5868: agedservicedescription # agedservicedescription
+    87a3c3a4-c60e-4afc-ad19-428c11c10a8f: 'Contact title' # Contact title
+    87edd3bd-c454-4a7b-95e7-42be25adc750: 'Welcome To Country' # Welcome To Country
+    91bd48e5-b04b-4a08-95f3-e237cee98945: 'Individual Service' # Individual Service
+    94f7bd6b-d507-4834-a703-c1b194c6c71d: 'About Us Internal Links' # About Us Internal Links
+    214b6128-9224-493b-9381-5f805dd53265: Wednesday # Wednesday
+    0262f528-0952-40d5-b357-f4edf433a570: point8 # point8
+    280a0b69-1b99-4bc4-9c2f-71f30d753cac: Features # Features
+    280fc86b-0686-4ae2-a095-182ce5dafa92: 'Where we service' # Where we service
+    352c80d9-c6cc-4619-b669-2abb89956a1a: welcometocountry # welcometocountry
+    405ad4ad-f727-42cb-8bb3-cbe62fe08b61: 'seocopy title' # seocopy title
+    512bb68d-5596-402f-be7b-b031ee9e26f6: peoples # peoples
+    543f54f3-e467-4e5c-92f4-7bead9b5471e: 'Disability Services' # Disability Services
+    552fd99a-a4a3-4dd2-8def-236fd45e6b88: indbanner # indbanner
+    600ffd99-ed0b-4411-893a-c6cf52c1d678: 'Disability Service Link' # Disability Service Link
+    610a0998-2163-40e6-9a9a-0ef810897ae7: Testimonials # Testimonials
+    771cc28f-c2fc-4453-8438-f4c7a091a3dd: 'Aged care Service' # Aged care Service
+    802a7e70-df45-43a9-ba4a-732946af4344: 'slider images' # slider images
+    0806e92b-9d5c-40bb-9698-e31f463bc54d: disabilityservice # disabilityservice
+    811ab027-41f1-4495-92d2-34b1efefbdb2: Description # Description
+    929f5b14-12af-45c3-a0ef-b2658df848c2: 'ourpeople Description' # ourpeople Description
+    957e28bd-0eb9-45de-99a4-832eac4bbb0e: Newsletter # Newsletter
+    967a24f7-1f88-4f72-b80a-b8bbcbc6db9c: News # News
+    991f478b-9125-48ec-86c6-f37d0161521d: 'Disability Slider' # Disability Slider
+    1212e646-c46b-478b-8cf3-b0b5b4df482f: 'Social Media Icons' # Social Media Icons
+    3491aa94-0ad4-45de-89eb-2fe7a5ecac56: 'Service Name' # Service Name
+    3799a0ba-bcc3-4d32-b842-7a2070ca6073: 'Management Title' # Management Title
+    4064ca7f-104f-47a3-bc1a-14623d9766ca: Tuesday # Tuesday
+    4335c0ef-04c1-47d6-bbba-07bddf96ef90: 'Aged Care Service Link' # Aged Care Service Link
+    4582d378-8933-487d-8250-e9c55f4f8325: Homepage # Homepage
+    5782c62f-c61a-4150-ae3c-31cb3ad26b40: 'Email Us' # Email Us
+    6610d8a6-e246-41b0-bd46-0739d72ee9ae: 'Our People' # Our People
+    8194d89f-441d-416f-8edd-25ef062416e4: 'Footer Logos' # Footer Logos
+    8266c346-78f6-4487-aefc-a89025f5cee6: indivisualservice # indivisualservice
+    8610e4fe-cf03-4dda-9de5-0ee0b8e061e5: 'Page Link' # Page Link
+    18896fb8-3bcb-4caa-8d2d-49f473b479f9: description # description
+    42985f3e-9d5b-49f3-8dc4-d33e2b1798c1: agedservicetitle # agedservicetitle
+    58112c9f-0bb3-478b-93b1-61ae9298f010: Summary # Summary
+    59611c79-2d60-4cb2-9034-ef89f126ba49: seocopy # seocopy
+    60507d85-be8f-4a92-b4f5-1fabc716a3b8: 'News Letter' # News Letter
+    91200cb7-167b-4c20-bdd7-7f9d0923ab19: News # News
+    180073bd-221e-48a5-b74d-e8edd3527cca: Feature # Feature
+    0354659a-15ff-4aac-8bf6-1f678e120daf: 'Button Url' # Button Url
+    619720ca-b322-4ef6-8af4-d298038d0aed: 'Newsletter Intro' # Newsletter Intro
+    694491eb-f7a9-4a22-9521-79c145a4e6d4: 'Our People' # Our People
+    908067fc-3f40-4aec-adb1-5fda097d383c: disabilityservices # disabilityservices
+    975523fb-2f52-4ede-bd8c-6423d612fa83: subtitle # subtitle
+    1830718e-07b5-48a9-ba3c-ac7dfe8a4c56: Title # Title
+    3517634d-7ec4-47fb-9966-5f52e6dca21b: Supportingway2 # Supportingway2
+    5917078a-5537-4a2f-8080-62bafadfac82: 'Public Schema' # Public Schema
+    8296182c-ce4d-4a36-b68c-9f818a8d7075: agedcareservice # agedcareservice
+    24969361-25d1-42ae-bc0b-c7db78fb5e15: 'Magement Title' # Magement Title
+    26757426-4d6c-4cb8-aecd-3dd0a9216b33: 'Link Title' # Link Title
+    51208446-f503-411d-bbb9-924ae3e01972: seodescription # seodescription
+    88556077-d7fc-4c86-b890-9dba5623e91c: 'About Us External Links' # About Us External Links
+    a06723d3-e25a-42fe-bbf5-bf6cb4471fa9: LinkURL # LinkURL
+    a5f9caea-55bf-495c-932b-bc047131b8c7: Title # Title
+    a7b57088-f76d-4f0a-9e5b-faefa9c22811: point3 # point3
+    a8b1ea0d-5b09-4dc2-b4bc-151c7c329721: Common # Common
+    a9bf5753-9955-4c41-b737-6148d515ca9f: description # description
+    a25f4600-46ac-4aef-9446-cf7259900887: 'Individual and In-Home Services' # Individual and In-Home Services
+    a82a3f16-e7f7-4af6-9ae7-a60290ab4589: 'Ability Network ' # Ability Network 
+    a85eca9e-4f7b-47d8-aa4d-adf5020a9298: Page # Page
+    a593f420-cccf-4ad1-8f84-3293e9bbf099: 'Newsletter Title' # Newsletter Title
+    a706f5d4-ee94-4716-b392-5008de3e410e: 'Service Detail' # Service Detail
+    a3397fcd-45c7-4ca4-816a-0a0b3ba56b99: aboutsection # aboutsection
+    aa33eabc-6ea3-436e-bb86-cbc1c3cde3ab: Basicinfo # Basicinfo
+    ab524fdb-7199-485d-b1a9-a811d333fa68: seocopydescpart1 # seocopydescpart1
+    abc182a4-064c-4fb7-86cd-77e29184aa06: 'Where we service' # Where we service
+    abe498d9-6b2a-441b-8ab8-8a9491ed20be: 'Hero Image' # Hero Image
+    aced51f8-c164-4387-83ed-30c4cb15c715: 'Footer Icon' # Footer Icon
+    af81252d-7516-4036-93d1-0487bbe20699: menuurl # menuurl
+    b5f58a79-7bac-45d6-84eb-3e8ba4a8cb59: 'Support1 Title' # Support1 Title
+    b53a5621-1aa8-4032-beac-b69d11871c0f: 'Banner Message' # Banner Message
+    b70791a4-c423-49a0-824b-5b7477a05494: 'Previous Newsletter' # Previous Newsletter
+    bbfce8f6-5c7c-40c1-8c84-34cecef5eef5: point5 # point5
+    bc12386e-188f-40c1-9c3b-102c67ddd14a: Careers # Careers
+    bd00d7e8-a215-403a-88b6-8b0da8c4fed7: servicetitle # servicetitle
+    bda0fe4e-be5b-4e0a-916c-5502f623f5c6: 'Call Us' # Call Us
+    bdb81143-038b-4e8a-9a12-7654c8f727c0: 'Footer Logo' # Footer Logo
+    bf965752-56f0-4df1-929c-1fd39745eef4: 'Service Title' # Service Title
+    c064455c-b169-4821-8d91-da58dd1b47ce: 'Service Map' # Service Map
+    c4cac59d-0f65-440a-bfd2-0ad8495d1f46: 'Service Title' # Service Title
+    c7bad311-dc23-4981-853a-4f91d6b8d8f7: shortdesc # shortdesc
+    c9c501fc-53f0-4d38-b5d5-d57c6e7d8586: servicetitle # servicetitle
+    c411dbdc-73de-4e95-9d29-58f166efbb9b: Homepage # Homepage
+    c749c2af-de81-4755-8362-baabb3d1ddc8: menuname # menuname
+    c7016dee-d1e3-4f22-b0a6-d433772b8c67: 'Contact Us' # Contact Us
+    c9310f00-f05d-4bee-8699-bcedc8b2bd45: Address # Address
+    ca6f676b-d540-4714-a7d3-289e8f54f3bd: 'disability title' # disability title
+    cbdc182b-6062-4853-93f5-49f79dd6775b: Default # Default
+    cc7516bb-f959-47da-9b00-265e4701fdf7: 'Where we Service' # Where we Service
+    cddc1843-0a2d-4b0d-8958-9a876d5503b6: 'Previous Newsletter' # Previous Newsletter
+    cedda5ff-ce77-4c46-9d83-7f4e11826d07: 'contact us' # contact us
+    cf6a1d01-0306-47fb-bc42-46a0217151f0: disabilityservice # disabilityservice
+    cff5f9f1-a86e-419d-a256-5bec4e27c509: 'General Info' # General Info
+    d0c68f95-93a3-49ef-87e4-1d57d22ec1e8: ourpeopleintro # ourpeopleintro
+    d06b9e03-8b6b-4d43-b9fc-ba5a772344df: 'featured image' # featured image
+    d074a546-9680-423b-89db-a2f1349ac528: 'Aged Care Services' # Aged Care Services
+    d7a64953-fe12-436d-b368-768989bf8f67: 'People Description' # People Description
+    d7c5a0e8-7a43-4bf9-899b-41b40fd53388: point4 # point4
+    d7ef15cf-faf6-4e4c-91cb-96d03dd536f7: 'Call Us' # Call Us
+    d7ffc363-7e59-463b-b2fa-5f5feafc127a: 'Intro Tite' # Intro Tite
+    d35db5be-379b-4430-8909-56ca52a9662d: Newsletter # Newsletter
+    d59e74da-6148-44ab-addb-004795650481: 'General description' # General description
+    d65ca56e-4f99-4089-b49a-3d691387d889: 'Contact Map' # Contact Map
+    d76fa8c2-725a-4a58-a1ff-4670a61387cc: Address # Address
+    d5350c31-08f4-48cf-8574-29f3255fa4cd: 'People Image' # People Image
+    d812698d-f060-4b68-84c8-ff4c28e171cc: disabiltysericesblock # disabiltysericesblock
+    d5025072-7611-4694-896d-9f5f4d7a3542: Text # Text
+    da940ecc-d239-452c-bf2a-ae74d36ee323: 'Disability Service Link' # Disability Service Link
+    dbfc9bb6-9452-4386-be08-9640070d5e76: 'Service Description' # Service Description
+    dc29ed7e-d549-4b85-b732-051b148728d0: 'Home Page' # Home Page
+    df7fc7bc-9d93-47ae-bb05-0586de63ab70: 'Ability Network' # Ability Network
+    dfbe4452-1b61-4cb3-91a7-2b4701962253: 'Where we Service' # Where we Service
+    dfbebc15-ee7c-48c7-8302-ef9eaeb7276e: 'slider image' # slider image
+    e0acb270-ea41-46b5-8957-b5f4f5b54517: 'Intro Description' # Intro Description
+    e04a4fc5-cc66-4234-9f9a-d7dfe0ff2788: 'disability description' # disability description
+    e2c4cc02-884b-49fd-8445-78afcefa79ae: Description # Description
+    e6e9569f-c453-44a5-9d3d-219ed8342c77: SocialIcon # SocialIcon
+    e53a1d8d-d455-419a-97df-52eccafe3342: Careers # Careers
+    e53e7edb-3052-417c-98c8-418347e2feff: 'Individual and In-Home Services' # Individual and In-Home Services
+    e84e00ad-1b47-47ec-bf47-fd324b6a9509: Friday # Friday
+    e90f8b84-0bba-4af3-a858-6fc558b64604: 'ourpeople Title' # ourpeople Title
+    e800c8f8-3318-4805-8f95-1bea2217c101: 'Head Office' # Head Office
+    e5571d5b-3955-4b06-b71b-02e712001446: featuredimage # featuredimage
+    e8636a2f-e621-41d9-a9f7-1d37ec7a1eff: sliderimage # sliderimage
+    ea19fb45-ed86-43ad-bde1-94099d1aaed7: 'upload logo' # upload logo
+    ea539ccf-883f-468c-b0d5-f2589fcd3f74: seotitle # seotitle
+    ea54183b-6896-43b2-a89b-18bf54e3bc01: 'Slider Content' # Slider Content
+    eacb792d-af8b-473d-a14e-59a087f2dc05: agedcaretitle # agedcaretitle
+    edfbfeb6-9916-4733-92c8-1949fd275534: 'our people' # our people
+    ee5faa9e-dfc2-4267-8dbf-847089f2d35d: infotitle # infotitle
+    ee157717-c0ee-4183-b997-d8697a1005dc: agedservices # agedservices
+    ef2c8f72-ad9d-49fa-a731-b8424ff1f41f: Page # Page
+    f01b8602-3f89-4415-b4f5-6870e8341346: News # News
+    f1d25545-e367-43cc-b3f2-433ff78cf281: 'About Us External Link' # About Us External Link
+    f15a7337-2e83-4e0f-9dec-8b969d93afd4: serviceimage # serviceimage
+    f240bf66-a29d-4b7f-a94f-81965cbaf5a2: point8 # point8
+    f307d53c-6167-490c-9cf2-1ca144e3d469: Blog # Blog
+    f891d0e8-ca1c-41be-ad5d-498f032046d1: 'Contact Us' # Contact Us
+    f90234bf-4cb5-4179-a789-eaf749067454: slider # slider
+    f249523c-2fd6-4dc8-93e7-13afde0bcc12: point1 # point1
+    fc4dab5e-c9bd-4cd8-a406-d5af68811e83: point3 # point3
+    ff1ce668-1344-4f83-86c7-1676bef3e3cb: 'External Url' # External Url
+    fff5b03f-b7d3-46fb-8aeb-dcd2fcde5d1d: point7 # point7
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      buildUrl: 'https://cdn.ckeditor.com/ckeditor5/27.0.0/classic/ckeditor.js'
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'Website Enquiry'
+      prependSubject: 'New message from Ability Network Website'
+      successFlashMessage: 'Thank you for your enquiry. One of our team will be in touch with you as soon as possible.'
+      toEmail: info@abilitynetwork.com.au
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      allow: 'Allow cookies'
+      async_js: ''
+      auto_inject: '1'
+      decline: Decline
+      defer_js: ''
+      disable_in_live_preview: ''
+      dismiss: X
+      dismiss_on_scroll: '0'
+      dismiss_on_timeout: '0'
+      excluded_categories: null
+      excluded_entry_types: null
+      expiry_days: '365'
+      honour_do_not_track_header: ''
+      layout: edgeless
+      learn: 'Learn More'
+      learn_more_link: '#'
+      message: '{{ announcementBar.bannerMessage }}'
+      palette: default
+      palette_banner: '313e82'
+      palette_banner_text: ffffff
+      palette_button: '313e82'
+      palette_button_text: '000000'
+      palette_left_button_bg: f8e71c
+      palette_left_button_text: '000000'
+      palette_link: ffffff
+      position: top
+      preload_css: ''
+      revokable: ''
+      secure_only: '1'
+      target: _blank
+      type: info
+  newsletter:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+    settings:
+      description: ''
+      facebookAppId: ''
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage: ''
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title}'
+        -
+          __assoc__:
+            -
+              - key
+              - '2'
+            -
+              - locked
+              - '1'
+            -
+              - template
+              - ' - {{ siteName }}'
+      titleSuffix: null
+      twitterHandle: ''
+  snaptcha:
+    enabled: true
+    licenseKey: I5G4EKR2014XSLV1J77CFWRF
+    settings:
+      allowList: ''
+      denyList: ''
+      errorButtonText: Resubmit
+      errorJavascriptDisabled: 'JavaScript must be enabled for your submission to be verified. Please enable it and refresh the page.'
+      errorMessage: 'For some reason your submission was flagged as spam. Please click the button below to resubmit your data.'
+      errorTemplate: ''
+      errorTitle: Error
+      excludeControllerActions: ''
+      expirationTime: '60'
+      fieldName: snaptcha
+      logRejected: '1'
+      minimumSubmitTime: '1'
+      oneTimeKey: '1'
+      salt: xwrjnsxtysvieida
+      validateUsers: '1'
+      validationEnabled: '1'
+system:
+  edition: solo
+  live: true
+  name: 'Ability Network '
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: Australia/Sydney
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

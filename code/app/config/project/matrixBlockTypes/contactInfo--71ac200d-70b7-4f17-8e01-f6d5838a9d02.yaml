@@ -1,0 +1,109 @@
+field: 280fc86b-0686-4ae2-a095-182ce5dafa92 # Where we service
+fieldLayouts:
+  44d9ecf5-419d-43c8-9730-08b19c0b1db1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5782c62f-c61a-4150-ae3c-31cb3ad26b40 # Email Us
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e800c8f8-3318-4805-8f95-1bea2217c101 # Head Office
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c064455c-b169-4821-8d91-da58dd1b47ce # Service Map
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5782c62f-c61a-4150-ae3c-31cb3ad26b40: # Email Us
+    contentColumnType: text
+    fieldGroup: null
+    handle: emailUs
+    instructions: ''
+    name: 'Email Us'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c064455c-b169-4821-8d91-da58dd1b47ce: # Service Map
+    contentColumnType: string
+    fieldGroup: null
+    handle: serviceMap
+    instructions: ''
+    name: 'Service Map'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  e800c8f8-3318-4805-8f95-1bea2217c101: # Head Office
+    contentColumnType: text
+    fieldGroup: null
+    handle: headOffice
+    instructions: ''
+    name: 'Head Office'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: contactInfo
+name: 'Contact Info'
+sortOrder: 2

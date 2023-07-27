@@ -1,0 +1,35 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+<div class="container"> 
+
+  <section class="section-three">
+    <div class="row">
+      <div class="col-8">
+      {% set entries = craft.entries.section('blog') %}
+        <h2>Blog</h2>
+        <p></p>
+      </div>
+      <div class="col-4 link-column"> <!-- <a href="#" class="link-btn">View all Disability Services <img src="../{assetsBasePath}/images/link-arrow.svg"/ alt="right arrow"></a> --> </div>
+
+    </div>
+    <div class="row three-column">
+    {% for entry in entries.all() %}
+      {% set heroImage = entry.heroImage.one() %}
+      <div class="col-4">
+        <div class="inner-box">{% if heroImage|length > 0 %} <img src="{{ heroImage.getUrl() }}"/>{% endif %}
+          <div class="inner-content">
+            <h4>{{ entry.title}} </h4>
+            <p>{{ entry.summary}} </p>
+            <a href="{{entry.url}}" class="service-btn">Find out more <img src="../{assetsBasePath}/images/button-arrow.svg" alt="right arrow"/></a> </div>
+        </div>
+      </div>
+      {% endfor %}
+      
+    </div>
+  </section>
+</div>
+{% include "_include/footer" %}
+
+{% endblock %}

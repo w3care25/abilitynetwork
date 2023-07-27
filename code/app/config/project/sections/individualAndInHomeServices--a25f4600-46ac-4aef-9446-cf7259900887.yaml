@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: individualAndInHomeServices
+name: 'Individual and In-Home Services'
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: individual-and-in-home-services/_entry
+    uriFormat: individual-and-in-home-services
+type: single

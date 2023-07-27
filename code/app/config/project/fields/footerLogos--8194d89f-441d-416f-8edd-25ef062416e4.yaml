@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 3ccf1e97-e678-4106-a9e1-bb71dac0ccb9 # Footer
+handle: footerLogos
+instructions: ''
+name: 'Footer Logos'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_footerlogos}}'
+  maxBlocks: '4'
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

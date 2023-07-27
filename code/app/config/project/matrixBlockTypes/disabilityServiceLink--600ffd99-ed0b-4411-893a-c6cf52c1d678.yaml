@@ -1,0 +1,42 @@
+field: da940ecc-d239-452c-bf2a-ae74d36ee323 # Disability Service Link
+fieldLayouts:
+  d017cb74-a57c-4a19-b3df-a41be7af3167:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a85eca9e-4f7b-47d8-aa4d-adf5020a9298 # Page
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a85eca9e-4f7b-47d8-aa4d-adf5020a9298: # Page
+    contentColumnType: string
+    fieldGroup: null
+    handle: disabilityServicePage
+    instructions: ''
+    name: Page
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: disabilityServiceLink
+name: 'Disability Service Link'
+sortOrder: 1

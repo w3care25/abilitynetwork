@@ -1,0 +1,264 @@
+field: 56c88330-d821-4f21-8509-5824f23b557b # Individual service
+fieldLayouts:
+  6d981d71-ed10-4711-a9a2-609f69555842:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 975523fb-2f52-4ede-bd8c-6423d612fa83 # subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f249523c-2fd6-4dc8-93e7-13afde0bcc12 # point1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5de73afb-6839-4731-ab6b-9752ec1b6aa1 # point2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a7b57088-f76d-4f0a-9e5b-faefa9c22811 # point3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d7c5a0e8-7a43-4bf9-899b-41b40fd53388 # point4
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2b60b278-8d72-4980-87d9-be85f5ec3765 # point5
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 52b576c7-edfb-4c0b-8f3b-d1d4fd3b1669 # point6
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: fff5b03f-b7d3-46fb-8aeb-dcd2fcde5d1d # point7
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0262f528-0952-40d5-b357-f4edf433a570 # point8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2b60b278-8d72-4980-87d9-be85f5ec3765: # point5
+    contentColumnType: text
+    fieldGroup: null
+    handle: point5
+    instructions: ''
+    name: point5
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5de73afb-6839-4731-ab6b-9752ec1b6aa1: # point2
+    contentColumnType: text
+    fieldGroup: null
+    handle: point2
+    instructions: ''
+    name: point2
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  52b576c7-edfb-4c0b-8f3b-d1d4fd3b1669: # point6
+    contentColumnType: text
+    fieldGroup: null
+    handle: point6
+    instructions: ''
+    name: point6
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0262f528-0952-40d5-b357-f4edf433a570: # point8
+    contentColumnType: text
+    fieldGroup: null
+    handle: point8
+    instructions: ''
+    name: point8
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  975523fb-2f52-4ede-bd8c-6423d612fa83: # subtitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: subtitle
+    instructions: ''
+    name: subtitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a7b57088-f76d-4f0a-9e5b-faefa9c22811: # point3
+    contentColumnType: text
+    fieldGroup: null
+    handle: point3
+    instructions: ''
+    name: point3
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d7c5a0e8-7a43-4bf9-899b-41b40fd53388: # point4
+    contentColumnType: text
+    fieldGroup: null
+    handle: point4
+    instructions: ''
+    name: point4
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f249523c-2fd6-4dc8-93e7-13afde0bcc12: # point1
+    contentColumnType: text
+    fieldGroup: null
+    handle: point1
+    instructions: ''
+    name: point1
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  fff5b03f-b7d3-46fb-8aeb-dcd2fcde5d1d: # point7
+    contentColumnType: text
+    fieldGroup: null
+    handle: point7
+    instructions: ''
+    name: point7
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: supportingway2
+name: Supportingway2
+sortOrder: 4

@@ -1,0 +1,88 @@
+field: cf6a1d01-0306-47fb-bc42-46a0217151f0 # disabilityservice
+fieldLayouts:
+  2ec16170-19ad-45f8-9d92-7377f6aa27cf:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 405ad4ad-f727-42cb-8bb3-cbe62fe08b61 # seocopy title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ab524fdb-7199-485d-b1a9-a811d333fa68 # seocopydescpart1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9c7dc2c7-330b-4479-92f3-b46bcf6047d3 # seocopypart2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9c7dc2c7-330b-4479-92f3-b46bcf6047d3: # seocopypart2
+    contentColumnType: text
+    fieldGroup: null
+    handle: seocopypart2
+    instructions: ''
+    name: seocopypart2
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  405ad4ad-f727-42cb-8bb3-cbe62fe08b61: # seocopy title
+    contentColumnType: text
+    fieldGroup: null
+    handle: seocopyTitle
+    instructions: ''
+    name: 'seocopy title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ab524fdb-7199-485d-b1a9-a811d333fa68: # seocopydescpart1
+    contentColumnType: text
+    fieldGroup: null
+    handle: seocopydescpart1
+    instructions: ''
+    name: seocopydescpart1
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+handle: seocopy
+name: seocopy
+sortOrder: 3

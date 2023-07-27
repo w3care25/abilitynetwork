@@ -1,0 +1,173 @@
+<footer>
+  <div class="container">
+    <div class="row upper-div">
+      <div class="col-3">
+      {% set footer = craft.globals().getSetByHandle('footer') %}
+      {% if footer|length %}
+
+        <h4>Useful Links</h4>
+        
+        <ul>
+        {% for block in footer.externalLink %}
+        {% if block.type == 'externallink'%}
+          <li><a href="{{block.linkurl}}" target="_blank">{{block.linkTitle}} </a></li>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+      <div class="col-3 ds-services">
+        <h4>Disability Services</h4>
+        {% set pages = craft.entries.section('disabiityService').level(1).all() %}
+
+        <ul>
+          {% for page in pages %}
+            <li>{{ page.getLink() }}</li>
+        {% endfor %}
+        </ul>
+        
+      </div>
+      <div class="col-3 ds-services">
+        <h4>Aged Care Services</h4>
+        <ul>
+        <li><a href="https://abilitynetwork.com.au/aged-care-services/home-support/">Home Support</a></li>
+        <li><a href="https://abilitynetwork.com.au/aged-care-services/home-care-packages/">Home Care Packages</a></li>
+        <li><a href="https://abilitynetwork.com.au/aged-care-services/private-services/">Private Services</a></li>
+        </ul>
+        <br>
+        <h4>About Us</h4>
+        <ul>
+        {% for block in footer.aboutUsInternalLinks %}
+        {% set entry = block.aboutUsInternalPage %}
+          {% for entri in entry %}
+          <li><a href="{{ entri.url}}/">{{ entri.title}} </a></li>
+          
+          {% endfor %}
+        {% endfor %}
+
+        {% for block in footer.aboutUsExternalLinks %}
+        {% if block.type == 'aboutUsExternalLink'%}
+         
+          <li><a href="{{ block.aboutUsExternalURL}}/">{{ block.aboutUsExternalLinkTitle}} </a></li>
+          
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="col-3 contact-foot-column">
+        <h4><a href="https://abilitynetwork.com.au/contact-us">Contact Us</a> </h4>
+
+        <br/>
+		
+		<h3>Follow us on:</h3>
+		<h5>Facebook</h5>
+		<ul class="social-follow">
+		<li><a href="https://www.facebook.com/abilitynetwork.com.au" target="_blank"><img src="../../{assetsBasePath}/images/follow-fb-icon.svg" alt="Facebook icon" /> Early Intervention and Therapy</a></li>
+		<li><a href="https://www.facebook.com/abilitynetworkagedcare" target="_blank"><img src="../../{assetsBasePath}/images/follow-fb-icon.svg" alt="Facebook icon" /> Aged Care Services</a></li>
+		<li><a href="https://www.facebook.com/abilitynetworkservices" target="_blank"><img src="../../{assetsBasePath}/images/follow-fb-icon.svg" alt="Facebook icon" /> Disability Services</a></li>
+		</ul>
+		<h5>Instagram</h5>
+		<ul class="social-follow">
+		<li><a href="https://www.instagram.com/abilitynetworkservices/" target="_blank"><img src="../../{assetsBasePath}/images/follow-ig-icon.svg" alt="Instagram icon" /> Ability Network</a></li>
+		</ul>
+		
+        <!--<h4>Find us on Social Media </h4>
+        <ul class="social-icona">
+        {% for block in footer.socialMediaIcons %}
+        {% if block.type == 'socialMediaIcons'%}
+          <li><a href="{{block.socialLink}}" target="_blank"><i class="fab fa-{{block.socialName}}"></i></a></li>
+          
+          {% endif %}
+          {% endfor %}
+        </ul>-->
+      </div>
+      <div class="footer-border"></div>
+      {% for block in footer.footerLogos %}
+        {% if block.type == 'footerIcon'%}
+        {% set footerimg = block.footerLogo.first() %}
+      <div class="col-3 align-center">
+      <a href="{{block.externalUrl}}"><img class="footer-icons" src="../../{{footerimg.url}}"/></a>
+      </div>
+      {% endif %}
+      {% endfor %}
+      
+      
+     
+      
+     {#
+      <div class="col-12 copyright">
+      	<p>Website designed and developed in partnership between <a href="http://www.vaada.com.au/" target="_blank">VAADA</a> and <a href="https://anthonykeal.com.au/" target="_blank">Anthony Keal</a> </p>
+      </div>
+      #}
+    </div>
+  </div>
+</footer>
+<button class="back-top-btn" onclick="topFunction()" id="myBtn" title="Go to top"><img src="../../{assetsBasePath}/images/top-arrow.png"/></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script>
+    jQuery(document).ready(function(){
+      jQuery(window).scroll(function() { // check if scroll event happened
+        if (jQuery(document).scrollTop() > 150) { // check if user scrolled more than 50 from top of the browser window
+          
+          jQuery(".main-sticky").addClass("sticky-header");
+          
+          jQuery(".main-sticky").css("", ""); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        } else {
+          
+          jQuery(".main-sticky").removeClass("sticky-header");
+          
+          jQuery(".main-sticky").css("display", "none"); // if not, change it back to transparent
+        }
+      });
+    });
+</script>
+
+<script>
+/*		$('#blogCarousel').carousel({
+				interval: 15000
+		});
+		*/
+</script>
+<script>
+$('.carousel-item', '.multi-item-carousel').each(function(){
+  var next = $(this).next();
+  if (! next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+}).each(function(){
+  var prev = $(this).prev();
+  if (! prev.length) {
+    prev = $(this).siblings(':last');
+  }
+  prev.children(':nth-last-child(2)').clone().prependTo($(this));
+});
+</script>
+<script src="https://kit.fontawesome.com/7986f27436.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+

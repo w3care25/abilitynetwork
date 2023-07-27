@@ -1,0 +1,64 @@
+field: 60507d85-be8f-4a92-b4f5-1fabc716a3b8 # News Letter
+fieldLayouts:
+  bb9ebd14-1054-4555-965c-d69bf91754d0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 50f63ad2-1ce5-4030-a624-ce0e4bca536d # news title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 62b759cf-367c-4fc1-a11c-359e0f659f3f # newsdescription
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  50f63ad2-1ce5-4030-a624-ce0e4bca536d: # news title
+    contentColumnType: text
+    fieldGroup: null
+    handle: newsTitle
+    instructions: ''
+    name: 'news title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  62b759cf-367c-4fc1-a11c-359e0f659f3f: # newsdescription
+    contentColumnType: text
+    fieldGroup: null
+    handle: newsdescription
+    instructions: ''
+    name: newsdescription
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+handle: newsletterIntro
+name: 'Newsletter Intro'
+sortOrder: 1

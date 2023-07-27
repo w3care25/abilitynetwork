@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 8266c346-78f6-4487-aefc-a89025f5cee6 # indivisualservice
+handle: indivisualService
+instructions: ''
+name: 'Individual service'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_indivisualservice}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

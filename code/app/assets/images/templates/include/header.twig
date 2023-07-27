@@ -1,0 +1,30 @@
+  <div class="container">
+  <div class="row">
+    <input class="checkbox-cb" id="checkbox-cb" type="checkbox" />
+    <div class="cookie-bar"> <span class="message">This website uses cookies to give you an incredible experience. By using this website you agree to the <a href="#">terms</a></span> <span class="mobile">This website uses cookies, <a href="#">learn more</a></span>
+      <label for="checkbox-cb" class="close-cb">x</label>
+    </div>
+  </div>
+</div>
+<div class="container main-header">
+  <header>
+    <div class="row">
+    {% set sitelogo = entry.uploadLogo.first() %}
+      {% if sitelogo|length %}
+      <div class="col-4"> <a href="https://abilitynetwork.com.au/"><img src="{{ sitelogo.url }}"/></a> </div>
+      {% endif %}
+      <div class="col-8">
+        <ul class="nav nav-pills">
+        {% set entries = craft.entries().headermenu(':notempty:').all() %}
+        {% if entries|length %}
+        {% for block in entry.headermenu %}
+            {% if block.type == 'headmenu'%}
+                <li class="nav-item"> <a class="nav-link active" href="{{block.menuurl}}">{{block.menuname}}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% endif %}
+        </ul>
+      </div>
+    </div>
+  </header>
+</div>

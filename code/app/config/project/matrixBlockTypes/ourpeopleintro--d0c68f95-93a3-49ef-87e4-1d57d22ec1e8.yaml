@@ -1,0 +1,64 @@
+field: 067e36f1-dcd6-44ca-b66d-44acd20b567c # Our people
+fieldLayouts:
+  4ac96458-cfaa-4302-b4b8-9656932003d8:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: e90f8b84-0bba-4af3-a858-6fc558b64604 # ourpeople Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 929f5b14-12af-45c3-a0ef-b2658df848c2 # ourpeople Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  929f5b14-12af-45c3-a0ef-b2658df848c2: # ourpeople Description
+    contentColumnType: text
+    fieldGroup: null
+    handle: ourpeopleDescription
+    instructions: ''
+    name: 'ourpeople Description'
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  e90f8b84-0bba-4af3-a858-6fc558b64604: # ourpeople Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: ourpeopleTitle
+    instructions: ''
+    name: 'ourpeople Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: ourpeopleintro
+name: ourpeopleintro
+sortOrder: 1

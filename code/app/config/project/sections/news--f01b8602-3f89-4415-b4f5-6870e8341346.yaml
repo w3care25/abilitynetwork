@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: news
+name: News
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/news
+    uriFormat: news
+structure:
+  maxLevels: null
+  uid: 8d611412-0647-437f-8a49-f5fb78c0f5a5
+type: structure

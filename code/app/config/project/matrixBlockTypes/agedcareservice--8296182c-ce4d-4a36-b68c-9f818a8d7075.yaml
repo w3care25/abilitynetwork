@@ -1,0 +1,165 @@
+field: 543f54f3-e467-4e5c-92f4-7bead9b5471e # Disability Services
+fieldLayouts:
+  c56609eb-c056-4706-a00a-74837c2e4d32:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: eacb792d-af8b-473d-a14e-59a087f2dc05 # agedcaretitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9c920cac-bf24-4065-9298-8ad293057189 # agedcaredescription
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2e8dd35e-7250-4f86-a31b-1bec3b0bf795 # agedfeaturedimage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 42985f3e-9d5b-49f3-8dc4-d33e2b1798c1 # agedservicetitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 85afa800-c49e-4467-8681-11bec53e5868 # agedservicedescription
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2e8dd35e-7250-4f86-a31b-1bec3b0bf795: # agedfeaturedimage
+    contentColumnType: string
+    fieldGroup: null
+    handle: agedfeaturedimage
+    instructions: ''
+    name: agedfeaturedimage
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  9c920cac-bf24-4065-9298-8ad293057189: # agedcaredescription
+    contentColumnType: text
+    fieldGroup: null
+    handle: agedcaredescription
+    instructions: ''
+    name: agedcaredescription
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  85afa800-c49e-4467-8681-11bec53e5868: # agedservicedescription
+    contentColumnType: text
+    fieldGroup: null
+    handle: agedservicedescription
+    instructions: ''
+    name: agedservicedescription
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  42985f3e-9d5b-49f3-8dc4-d33e2b1798c1: # agedservicetitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: agedservicetitle
+    instructions: ''
+    name: agedservicetitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  eacb792d-af8b-473d-a14e-59a087f2dc05: # agedcaretitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: agedcaretitle
+    instructions: ''
+    name: agedcaretitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: agedcareservice
+name: agedcareservice
+sortOrder: 3

@@ -1,0 +1,83 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+<div class="container"> 
+  <!--======== Service Single Content ========-->
+  <section class="contactus-row">
+   {% set entries = craft.entries().contactUs(':notempty:').all() %}
+  {% if entries|length %}
+    {% for block in entry.contactUs %}
+    {% if block.type== 'basicinfo' %}
+    <div class="row padding">
+      <div class="col-8">
+        <h2 class="single-title">{{block.contactTitle}}</h2>
+        <p>{{block.contactDescription}}</p>
+        <br/>
+        <br/>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      <div class="col-4"> </div>
+      <div class="clearfix"></div>
+      <div class="col-8 contact-left">
+        <h3 class="single-title">Email Us</h3>
+        {% include "_singles/contact-form.twig" %} </div>
+      <div class="col-4 contact-right">
+      <h3 class="single-title">Call Us</h3>
+        {% for block in entry.contactUs %}
+        {% if block.type== 'callUs' %}
+        
+        <!-- 1 -->
+
+        <div class="contact-divider">
+          <h3>{{block.servicetitle}}</h3>
+          <p>Ph: <a href="tel:{{block.servicedetail}}">{{block.servicedetail}}</a></p>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <section class="address-row">
+    <div class="row padding">
+    
+      <div class="col-4">
+      {% for block in entry.contactUs %}
+        {% if block.type== 'address' %}
+        <h2 class="single-title">Address</h2>
+        <p>{{block.address}}</p>
+        <br/>
+        {% endif %}
+      {% endfor %}
+
+      {% for block in entry.contactUs %}
+        {% if block.type== 'openHours' %}
+        {% set contactmap = block.contactMap.first() %}
+        <h4>Open Hours</h4>
+        <ul>
+          <li> {{block.monday}}</li>
+          <li> {{block.tuesday}}</li>
+          <li> {{block.wednesday}}</li>
+          <li> {{block.thursday}}</li>
+          <li> {{block.friday}}</li>
+          <li> {{block.saturday}}</li>
+          <li> {{block.sunday}}</li>
+        </ul>
+      </div>
+      
+      <div class="col-8"> <img class="img-responsive" src="../{{contactmap.url}}"/> </div>
+      {% endif %}
+      {% endfor %}
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  
+  <!--======== End ========--> 
+  
+</div>
+
+{% include "_include/footer" %}
+{% endblock %}

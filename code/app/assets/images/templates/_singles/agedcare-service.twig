@@ -1,0 +1,63 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+<div class="container"> 
+  <!--======== 1 ========-->
+  <section class="section-three">
+    <div class="row">
+      <div class="col-8">
+      {% set entries = craft.entries().disabilityservice(':notempty:').all() %}
+        {% if entries|length %}
+        {% for block in entry.disabilityservice %}
+          {% if block.type == 'basicinfo'%}
+        <h2>{{block.disabilityTitle}} </h2>
+        <p>{{block.disabilityDescription}}</p>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+      </div>
+      <div class="col-4 link-column"> <!-- <a href="#" class="link-btn">View all Disability Services <img src="{assetsBasePath}/images/link-arrow.svg"/ alt="right arrow"></a> --> </div>
+
+    </div>
+    <div class="row three-column">
+    {% for block in entry.disabilityservice %}
+          {% if block.type == 'disabiltysericesblock'%}
+          {% set serviceimg = block.serviceimage.first() %}
+      <div class="col-4">
+        <div class="inner-box"><img src="../{{serviceimg ? serviceimg.url}}"/>
+          <div class="inner-content">
+            <h4>{{ block.servicetitle}} </h4>
+            <p>{{ block.servicesortdesc}} </p>
+            <a href="{{ block.buttonUrl}}" class="service-btn">Find out more <img src="../{assetsBasePath}/images/button-arrow.svg" alt="right-arrow" /></a> </div>
+        </div>
+      </div>
+      {% endif %}
+        {% endfor %}
+      
+    </div>
+  </section>
+  <!--======== Newsletter SignUp ========-->
+  <section class="section-seocopy">
+    <div class="row padding">
+    {% for block in entry.disabilityservice %}
+          {% if block.type == 'seocopy'%}
+      <div class="col-12">
+      	<h2 class="SEO-title">{{block.seocopyTitle}}</h2>
+        </div>
+      <div class="col-12 column-content">
+      <p>{{block.seocopydescpart1}}</p>
+        	
+      </div>
+      {% endif %}
+      {% endfor %}
+      </div>
+      </div>
+  
+  <!--======== End ========--> 
+  
+</div>
+</div>
+{% include "_include/footer" %}
+
+{% endblock %}

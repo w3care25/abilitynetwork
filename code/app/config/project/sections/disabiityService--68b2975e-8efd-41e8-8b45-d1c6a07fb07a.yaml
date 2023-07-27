@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: disabiityService
+name: 'Disability Service'
+propagationMethod: all
+siteSettings:
+  df7fc7bc-9d93-47ae-bb05-0586de63ab70: # Ability Network
+    enabledByDefault: true
+    hasUrls: true
+    template: disability-service/_entry
+    uriFormat: 'disability-services/{slug}'
+structure:
+  maxLevels: null
+  uid: 51d25422-f031-401a-958f-581d87163d5f
+type: structure

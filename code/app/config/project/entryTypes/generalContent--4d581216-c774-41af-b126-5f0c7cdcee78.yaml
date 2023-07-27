@@ -1,0 +1,47 @@
+fieldLayouts:
+  0b4abfb2-16aa-4b90-b96e-b1f6b6d35f47:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 17b42023-9b4b-46c8-a1a2-07dc503ee900 # general-content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Page Intro'
+        sortOrder: 1
+handle: generalContent
+hasTitleField: true
+name: 'General Content'
+section: cddc1843-0a2d-4b0d-8958-9a876d5503b6 # Previous Newsletter
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

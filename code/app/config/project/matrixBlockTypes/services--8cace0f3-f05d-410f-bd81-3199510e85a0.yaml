@@ -1,0 +1,81 @@
+field: 0a7da4ad-fab4-479b-abaf-223898d7f388 # aboutpart
+fieldLayouts:
+  e80ad605-a6ae-42de-a232-b98653dccd9d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 14dd7d60-1d9f-43b6-93a7-18156fab4832 # image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c7bad311-dc23-4981-853a-4f91d6b8d8f7 # shortdesc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  14dd7d60-1d9f-43b6-93a7-18156fab4832: # image
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9c85c264-0d55-45a0-85a7-92df5c20c108' # images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c7bad311-dc23-4981-853a-4f91d6b8d8f7: # shortdesc
+    contentColumnType: text
+    fieldGroup: null
+    handle: shortdesc
+    instructions: ''
+    name: shortdesc
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: services
+name: services
+sortOrder: 2

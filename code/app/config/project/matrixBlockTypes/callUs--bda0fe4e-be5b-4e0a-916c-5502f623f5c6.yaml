@@ -1,0 +1,68 @@
+field: 2c263ea2-c9e3-4c8d-92d0-a28bb8f2a10a # Contact Us
+fieldLayouts:
+  166b7b72-0c81-445a-a094-e7305cf1f368:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: bf965752-56f0-4df1-929c-1fd39745eef4 # Service Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a706f5d4-ee94-4716-b392-5008de3e410e # Service Detail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a706f5d4-ee94-4716-b392-5008de3e410e: # Service Detail
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicedetail
+    instructions: ''
+    name: 'Service Detail'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  bf965752-56f0-4df1-929c-1fd39745eef4: # Service Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicetitle
+    instructions: ''
+    name: 'Service Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: callUs
+name: 'Call Us'
+sortOrder: 2

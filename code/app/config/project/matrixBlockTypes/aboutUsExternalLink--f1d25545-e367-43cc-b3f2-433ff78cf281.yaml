@@ -1,0 +1,64 @@
+field: 88556077-d7fc-4c86-b890-9dba5623e91c # About Us External Links
+fieldLayouts:
+  24d010c7-f527-425a-a160-3f79f1cf6751:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1830718e-07b5-48a9-ba3c-ac7dfe8a4c56 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1eb0e487-73f1-4d6d-bed1-84eece07f94d # About Us External URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1eb0e487-73f1-4d6d-bed1-84eece07f94d: # About Us External URL
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: aboutUsExternalURL
+    instructions: ''
+    name: 'About Us External URL'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  1830718e-07b5-48a9-ba3c-ac7dfe8a4c56: # Title
+    contentColumnType: text
+    fieldGroup: null
+    handle: aboutUsExternalLinkTitle
+    instructions: ''
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: aboutUsExternalLink
+name: 'About Us External Link'
+sortOrder: 1

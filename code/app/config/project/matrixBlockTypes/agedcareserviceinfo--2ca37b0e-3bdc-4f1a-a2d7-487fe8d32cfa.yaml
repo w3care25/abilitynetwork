@@ -1,0 +1,68 @@
+field: 771cc28f-c2fc-4453-8438-f4c7a091a3dd # Aged care Service
+fieldLayouts:
+  9fcd35a8-1e0d-421d-a848-910ac5a1795a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ee5faa9e-dfc2-4267-8dbf-847089f2d35d # infotitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a9bf5753-9955-4c41-b737-6148d515ca9f # description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a9bf5753-9955-4c41-b737-6148d515ca9f: # description
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: ''
+    name: description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ee5faa9e-dfc2-4267-8dbf-847089f2d35d: # infotitle
+    contentColumnType: text
+    fieldGroup: null
+    handle: infotitle
+    instructions: ''
+    name: infotitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: agedcareserviceinfo
+name: agedcareserviceinfo
+sortOrder: 1

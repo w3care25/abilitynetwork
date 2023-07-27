@@ -1,0 +1,64 @@
+field: 56c88330-d821-4f21-8509-5824f23b557b # Individual service
+fieldLayouts:
+  a07ed02f-8a7a-4234-a1d7-d3d0e03ab762:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d7ffc363-7e59-463b-b2fa-5f5feafc127a # Intro Tite
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e0acb270-ea41-46b5-8957-b5f4f5b54517 # Intro Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  d7ffc363-7e59-463b-b2fa-5f5feafc127a: # Intro Tite
+    contentColumnType: text
+    fieldGroup: null
+    handle: introTite
+    instructions: ''
+    name: 'Intro Tite'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e0acb270-ea41-46b5-8957-b5f4f5b54517: # Intro Description
+    contentColumnType: text
+    fieldGroup: null
+    handle: introDescription
+    instructions: ''
+    name: 'Intro Description'
+    searchable: false
+    settings:
+      columnType: text
+      initJs: null
+      purifierConfig: ''
+      purifyHtml: '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+handle: intro
+name: Intro
+sortOrder: 2

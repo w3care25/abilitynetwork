@@ -1,0 +1,349 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_include/header" %}
+<div class="container"> 
+  <!--======== 1 ========-->
+  <section class="section-one">
+    <div class="row">
+    <!--<div class="col-6 first-column">
+    
+      <a href="#" class="org-btn">Aged Care Services</a> </div>-->
+    <div class="col-12 second-column">
+      <div id="demo" class="carousel slide" data-ride="carousel"> 
+        
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+        {% set entries = craft.entries().homeslider(':notempty:').all() %}
+        {% if entries|length %}
+      {% for block in entry.homeslider %}
+          {% if block.type == 'slider'%}
+          {% set sliderimage = block.sliderimage.first() %}
+          {% if loop.first %}
+            <div class="carousel-item active">
+			<div class="row flex-column-reverse-mobile">
+			<div class="col-6 first-column-slid">
+			{{block.sliderContent}}
+			<a href="{{block.buttonUrl}}" class="org-btn">{{block.buttonText}}</a> 
+			</div>
+			
+			<div class="col-6 right-column-slid">
+			<img src ="{{ sliderimage.url }}" alt = "{{ sliderimage.filename }}" />
+			</div>
+			
+			</div>
+			</div>
+			
+            {% else %}
+			
+             <div class="carousel-item">
+			 <div class="row flex-column-reverse-mobile">
+			 <div class="col-6 first-column-slid">
+			{{block.sliderContent}}
+			<a href="{{block.buttonUrl}}" class="org-btn">{{block.buttonText}}</a>
+			</div>
+			
+			<div class="col-6 right-column-slid">
+			<img src ="{{ sliderimage.url }}" alt = "{{ sliderimage.filename }}" />
+			</div>
+			
+			</div>
+			</div>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+    
+{% endif %}
+        </div>
+        
+        <!-- Left and right controls --> 
+        <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>--> 
+        
+      </div>
+    </div>
+  </section>
+  <!--======== 2 ========-->
+   {% set entries = craft.entries().aboutpart(':notempty:').all() %}
+         {% if entries|length %}
+  <section class="section-two">
+    <div class="row">
+      <div class="col-12"> 
+     
+          {% for block in entry.aboutpart %}
+          {% if block.type == 'aboutsection'%}
+          <p class="welcome-text">Ability Network provides a range of disability and aged care services throughout Central West NSW, supporting local council areas of Cowra, Blayney, Weddin, Cabonne, Lachlan, Bathurst and Orange. Our passion is to provide you with individualised services so that you can live life to the fullest, participating in activities that are meaningful to you and connecting you with your local community. </p>
+          <h2>{{block.aboutsectitle}}</h2>
+          <p>{{block.description}}</p>
+          {% endif %}
+        {% endfor %}
+   
+      </div>
+    </div>
+    <div class="row three-column">
+      {% for block in entry.aboutpart %}
+      {% if block.type == 'services' %}
+      {% set image = block.image.first() %}
+      <div class="col-4 orange"> <img src="{{ image.url }}"/>
+        <h4>{{ block.shortdesc}} </h4>
+      </div>
+      {% endif %}
+      {% endfor %}
+	  <div class="clearfix"></div>
+	  <!--=================================-->
+<div class="mobile-icon-slider">	
+<div class="col-12">	  
+	  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item orange active">
+      <img class="d-block w-100" src="../../{assetsBasePath}/images/icon1.svg" alt="First slide">
+        <h4>Respect</h4>
+    </div>
+    <div class="carousel-item blue">
+      <img class="d-block w-100" src="../../{assetsBasePath}/images/icon2.svg" alt="Second slide">
+        <h4>Confidentiality</h4>
+    </div>
+    <div class="carousel-item dark">
+      <img class="d-block w-100" src="../../{assetsBasePath}/images/icon3.svg" alt="Third slide">
+        <h4>Diversity</h4>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+	  <!--=================================-->
+	  
+	  
+    </div>
+    {% endif %}
+  </section>
+  <!--======== 3 ========-->
+  {% set entries = craft.entries().disabilityServices(':notempty:').all() %}
+         {% if entries|length %}
+  <section class="section-three">
+    <div class="row">
+      <div class="col-8">
+      {% for block in entry.disabilityServices %}
+          {% if block.type == 'disabilityinfo'%}
+            <h2>{{block.disabilityTitle}}</h2>
+            <p>{{block.disabilityDescription}}</p>
+          {% endif %}
+          {% endfor %}
+      </div>
+      <div class="col-4 link-column"> <a href="/disability-services" class="link-btn">View all Disability Services <img src="{assetsBasePath}/images/link-arrow.svg"/ alt="right arrow"></a> </div>
+    </div>
+    <div class="row three-column">
+      {% for block in entry.disabilityServices %}
+          {% if block.type == 'disabilityservice'%}
+          {% set serviceimg = block.featuredimage.first() %}
+      <div class="col-4">
+        <div class="inner-box"><img src="{{ serviceimg ? serviceimg.url }} "/>
+          <div class="inner-content">
+            <h4>{{block.servicetitle}} </h4>
+            <p>{{block.servicedescription}} </p>
+            <a href="{{block.buttonUrl}}" class="service-btn">Find out more <img src="{assetsBasePath}/images/button-arrow.svg" alt="right arrow" /></a> </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+    </div>
+    <!--==============-->
+    {% set entries = craft.entries().agedCareService(':notempty:').all() %}
+         {% if entries|length %}
+    <div class="row aged-row">
+    {% for block in entry.agedCareService %}
+    {% if block.type == 'agedcareserviceinfo'%}
+      <div class="col-8">
+        <h2>{{block.infotitle}}</h2>
+        <p>{{block.description}}</p>
+      </div>
+      <div class="col-4 link-column"> <a href="/aged-care-services/" class="link-btn">View all Aged Care Services <img src="{assetsBasePath}/images/link-arrow.svg"/ alt="right arrow"></a> </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <div class="row three-column">
+    {% for block in entry.agedCareService %}
+    {% if block.type == 'agedservices'%}
+    {% set serviceimg = block.featuredImage.first() %}
+      <div class="col-4">
+        <div class="inner-box"><img src="{{serviceimg ? serviceimg.url}}"/>
+          <div class="inner-content">
+            <h4>{{block.servicetitle}} </h4>
+            <p>{{block.description}} </p>
+            <a href="{{block.buttonUrl}}" class="service-btn">Find out more <img src="{assetsBasePath}/images/button-arrow.svg" alt="right arrow" /></a> </div>
+        </div>
+      </div>
+      {% endif %}
+     {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  <!--======== Newsletter SignUp ========-->
+  <section class="section-four">
+    <div class="row">
+      <div class="col-6">
+      {% for block in entry.newsLetter %}
+        {% if block.type == 'newsletterIntro' %}
+        <h2>{{block.newsTitle}}</h2>
+        <p>{{block.newsdescription}} </p>
+        {% endif %}
+        {% endfor %}
+        <ul>
+        {% for block in entry.newsLetter %}
+        {% if block.type == 'features' %}
+          <li>{{block.feature}}</li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-6">{% include "_singles/home-newsletter-form" %} </div>
+    </div>
+  </section>
+  <!--==================Testimonials===============-->
+  
+  <section class="section-fo-five">
+  <div class="row blog">
+    <div class="col-md-12">
+        <h2>Testimonials</h2>
+      <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#blogCarousel" data-slide-to="1"></li>
+        </ol>
+        
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+            {% set entries = craft.entries().welcomeToCountry(':notempty:').all() %}
+              {% if entries|length %}
+              {% for block in entry.welcomeToCountry %}
+              {% if block.type == 'testimonials' %}
+              {% if loop.index <= 3%}
+              <div class="col-md-4">
+              <div class="inner-review">
+                <h4>{{block.authorName}}</h4>
+                <h5>Client</h5>
+                <div class="rating-starts"> 
+                {% if block.rating == 1%}
+                <img src="{assetsBasePath}/images/rating-1.png" alt="1 star rating" /> 
+                {% endif %}
+                {% if block.rating == 2%}
+                <img src="{assetsBasePath}/images/rating-2.png" alt="2 star rating" /> 
+                {% endif %}
+                {% if block.rating == 3%}
+                <img src="{assetsBasePath}/images/rating-3.png" alt="3 star rating" /> 
+                {% endif %}
+                {% if block.rating == 4%}
+                <img src="{assetsBasePath}/images/rating-4.png" alt="4 star rating" /> 
+                {% endif %}
+                {% if block.rating == 5%}
+                <img src="{assetsBasePath}/images/rating-5.png" alt="5 star rating" /> 
+                {% endif %}
+                </div>
+                <p>{{block.testimonialDescription}} </p>
+              </div>
+              </div>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+              {% endif %}
+            <!--.row--> 
+          </div>
+          </div>
+          <!--.item-->
+          
+          <div class="carousel-item">
+            <div class="row">
+            {% for block in entry.welcomeToCountry %}
+              {% if block.type == 'testimonials' %}
+              {% if loop.index > 3%}
+              <div class="col-md-4">
+              <div class="inner-review">
+                <h4>{{block.authorName}}</h4>
+                <h5>Client</h5>
+                <div class="rating-starts">
+                 {% if block.rating == 1%}
+                <img src="{assetsBasePath}/images/rating-1.png"/> 
+                {% endif %}
+                {% if block.rating == 2%}
+                <img src="{assetsBasePath}/images/rating-2.png"/> 
+                {% endif %}
+                {% if block.rating == 3%}
+                <img src="{assetsBasePath}/images/rating-3.png"/> 
+                {% endif %}
+                {% if block.rating == 4%}
+                <img src="{assetsBasePath}/images/rating-4.png"/> 
+                {% endif %}
+                {% if block.rating == 5%}
+                <img src="{assetsBasePath}/images/rating-5.png"/> 
+                {% endif %}
+                  </div>
+                <p>{{block.testimonialDescription}}</p>
+              </div>
+              </div>
+              {% endif%}
+              {% endif%}
+              {% endfor %}
+              
+            </div>
+            <!--.row--> 
+          </div>
+          <!--.item--> 
+          
+        </div>
+        <!--.carousel-inner--> 
+      </div>
+      <!--.Carousel--> 
+      
+    </div>
+  </div>
+</section>
+
+  <!--======== Newsletter SignUp ========-->
+  <section class="section-five">
+    <div class="row">
+    {% for block in entry.welcomeToCountry %}
+      {% if block.type == 'welcometocountry' %}
+      {% set welcomeimg = block.abilityLogo.first() %}
+      <div class="col-3"> <img class="img-responsive" src="{{welcomeimg.url}}"/> </div>
+      <div class="col-9">
+        <p>{{block.countryDescription}} </p>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!--======== End ========-->
+  
+</div>
+</div>
+{% include "_include/footer" %}
+{% endblock %}

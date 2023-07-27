@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: edfbfeb6-9916-4733-92c8-1949fd275534 # our people
+handle: ourPeople
+instructions: ''
+name: 'Our people'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_ourpeople}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

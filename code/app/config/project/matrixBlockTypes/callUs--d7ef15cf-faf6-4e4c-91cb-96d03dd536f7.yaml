@@ -1,0 +1,68 @@
+field: 280fc86b-0686-4ae2-a095-182ce5dafa92 # Where we service
+fieldLayouts:
+  d6eebd89-d5c6-4b05-b8c1-9e1735f6bb14:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3491aa94-0ad4-45de-89eb-2fe7a5ecac56 # Service Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9c76b7e4-96a9-4959-b919-ad103cc934c0 # Service Detail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9c76b7e4-96a9-4959-b919-ad103cc934c0: # Service Detail
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicedetail
+    instructions: ''
+    name: 'Service Detail'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3491aa94-0ad4-45de-89eb-2fe7a5ecac56: # Service Name
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicename
+    instructions: ''
+    name: 'Service Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: callUs
+name: 'Call Us'
+sortOrder: 3

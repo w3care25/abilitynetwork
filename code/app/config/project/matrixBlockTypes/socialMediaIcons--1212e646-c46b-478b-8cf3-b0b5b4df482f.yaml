@@ -1,0 +1,80 @@
+field: 0ae5ba23-3c57-479d-a905-8da033ba3f45 # Social Media Icons
+fieldLayouts:
+  301b8ee0-846a-4b5b-bde5-a9221d5949f0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9b4e0ddf-91ee-40f3-8477-ba57dd3efce2 # Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2c809fe8-cb0d-48ee-86af-1ce5e1235d13 # Social Media Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2c809fe8-cb0d-48ee-86af-1ce5e1235d13: # Social Media Link
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: socialLink
+    instructions: ''
+    name: 'Social Media Link'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  9b4e0ddf-91ee-40f3-8477-ba57dd3efce2: # Name
+    contentColumnType: string
+    fieldGroup: null
+    handle: socialName
+    instructions: ''
+    name: Name
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Facebook
+            -
+              - value
+              - facebook
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Instagram
+            -
+              - value
+              - instagram
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: socialMediaIcons
+name: 'Social Media Icons'
+sortOrder: 1

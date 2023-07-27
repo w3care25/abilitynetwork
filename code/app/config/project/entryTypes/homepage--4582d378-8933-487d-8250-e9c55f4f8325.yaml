@@ -1,0 +1,125 @@
+fieldLayouts:
+  573c8148-4050-4fd8-aa74-6fa33f542e52:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: ea19fb45-ed86-43ad-bde1-94099d1aaed7 # upload logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9dfef8a6-85cc-425c-b286-3240e672088d # Home Slider
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Banner
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 0a7da4ad-fab4-479b-abaf-223898d7f388 # aboutpart
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: aboutpart
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: 543f54f3-e467-4e5c-92f4-7bead9b5471e # Disability Services
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: disabilityservice
+        sortOrder: 4
+      -
+        elements:
+          -
+            fieldUid: 771cc28f-c2fc-4453-8438-f4c7a091a3dd # Aged care Service
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: agedcareservice
+        sortOrder: 5
+      -
+        elements:
+          -
+            fieldUid: 87edd3bd-c454-4a7b-95e7-42be25adc750 # Welcome To Country
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Ourcountry & Testimonials'
+        sortOrder: 6
+      -
+        elements:
+          -
+            fieldUid: 60507d85-be8f-4a92-b4f5-1fabc716a3b8 # News Letter
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Newsletter
+        sortOrder: 7
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: c411dbdc-73de-4e95-9d29-58f166efbb9b # Homepage
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
